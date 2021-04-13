@@ -1,6 +1,6 @@
 {
   "name": "@donews/nestjs-tracing",
-  "version": "0.7.7",
+  "version": "0.8.0",
   "description": "> TODO: description",
   "author": "李太新 <litaixin@donews.com>",
   "homepage": "https://github.com/LastKing/nestjs#readme",
