@@ -1,0 +1,5 @@
+PORT: 4000
+TIMEOUT: 5000
+
+OBJ1:
+  filed1: 2

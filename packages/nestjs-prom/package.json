@@ -1,0 +1,24 @@
+{
+  "name": "@donews/nestjs-prom",
+  "version": "0.7.7",
+  "description": "nestjs prom module",
+  "author": "李太新 <litaixin@donews.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "prom-client": "^13.1.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^7.6.15",
+    "@nestjs/core": "^7.6.15",
+    "@nestjs/testing": "^7.6.15"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^7.0.0",
+    "@nestjs/core": "^7.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@donews/nestjs-config",
+  "version": "0.7.7",
+  "description": "Nest config module",
+  "author": "TooNew <litaixin01@163.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "js-yaml": "^4.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^7.6.15",
+    "@nestjs/core": "^7.6.15",
+    "@nestjs/testing": "^7.6.15",
+    "@types/hapi__joi": "^17.1.6",
+    "@types/lodash": "^4.14.168"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^7.0.0",
+    "@nestjs/core": "^7.0.0"
+  },
+  "gitHead": "bc31e1ef8e9902dd20406b46287f03f357e38d89"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@donews/nestjs-logger",
+  "version": "0.7.7",
+  "description": "nestjs logger module",
+  "author": "TooNew <litaixin01@163.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^7.6.15",
+    "@nestjs/core": "^7.6.15",
+    "@nestjs/testing": "^7.6.15"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^7.0.0",
+    "@nestjs/core": "^7.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package rawpackage;
+
+service RawService {
+    rpc Say (Request) returns (Response) {}
+}
+
+message Request {
+    string message = 1;
+}
+
+message Response {
+    string data = 1;
+}
+
