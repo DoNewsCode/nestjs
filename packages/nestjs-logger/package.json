@@ -10,9 +10,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "@nestjs/common": "^7.6.15",
-    "@nestjs/core": "^7.6.15",
-    "@nestjs/testing": "^7.6.15"
+    "@nestjs/common": "7.6.15",
+    "@nestjs/core": "7.6.15",
+    "@nestjs/testing": "7.6.15"
   },
   "peerDependencies": {
     "@nestjs/common": "^7.0.0",
