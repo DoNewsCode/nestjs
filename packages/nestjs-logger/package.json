@@ -12,6 +12,7 @@
   "devDependencies": {
     "@nestjs/common": "7.6.15",
     "@nestjs/core": "7.6.15",
+    "@nestjs/platform-express": "7.6.15",
     "@nestjs/testing": "7.6.15"
   },
   "peerDependencies": {
