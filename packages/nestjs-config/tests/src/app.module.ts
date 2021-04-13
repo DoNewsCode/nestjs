@@ -3,8 +3,8 @@
  */
 import { join } from 'path';
 
-import * as Joi from '@hapi/joi';
 import { DynamicModule, Module } from '@nestjs/common';
+import * as Joi from 'joi';
 
 import { ConfigModule, ConfigService } from '../../lib';
 

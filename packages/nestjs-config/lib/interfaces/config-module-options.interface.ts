@@ -1,7 +1,7 @@
 /**
  * Created by Rain on 2020/3/25
  */
-import { AnySchema, ValidationOptions } from '@hapi/joi';
+import { AnySchema, ValidationOptions } from 'joi';
 
 export interface ConfigModuleOptions {
   /**

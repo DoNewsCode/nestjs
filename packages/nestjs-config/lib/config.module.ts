@@ -3,8 +3,8 @@
  */
 import * as fs from 'fs';
 
-import { ValidationOptions } from '@hapi/joi';
 import { DynamicModule, FactoryProvider, Module } from '@nestjs/common';
+import { ValidationOptions } from 'joi';
 import { load } from 'js-yaml';
 
 import {
