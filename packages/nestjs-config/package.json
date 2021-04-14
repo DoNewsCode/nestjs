@@ -1,13 +1,20 @@
 {
   "name": "@donews/nestjs-config",
   "version": "0.8.0",
-  "description": "Nest config module",
-  "author": "TooNew <litaixin01@163.com>",
+  "description": "nestjs config module",
+  "author": "toonewLi <litaixin01@163.com>",
   "license": "MIT",
   "main": "index.js",
   "scripts": {},
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DoNewsCode/nestjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DoNewsCode/nestjs/issues"
   },
   "dependencies": {
     "joi": "17.4.0",

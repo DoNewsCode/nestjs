@@ -1,17 +1,20 @@
 {
   "name": "@donews/nestjs-tracing",
   "version": "0.8.0",
-  "description": "> TODO: description",
-  "author": "李太新 <litaixin@donews.com>",
-  "homepage": "https://github.com/LastKing/nestjs#readme",
+  "description": "nestjs tracing module",
+  "author": "toonewLi <litaixin01@163.com>",
   "license": "MIT",
   "main": "index.js",
   "scripts": {},
-  "bugs": {
-    "url": "https://github.com/LastKing/nestjs/issues"
-  },
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DoNewsCode/nestjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DoNewsCode/nestjs/issues"
   },
   "dependencies": {
     "axios": "0.21.1",
