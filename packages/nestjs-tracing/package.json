@@ -27,7 +27,7 @@
     "@nestjs/platform-express": "7.6.15",
     "@nestjs/testing": "7.6.15",
     "express": "4.17.1",
-    "grpc": "1.24.6"
+    "grpc": "1.24.7"
   },
   "peerDependencies": {
     "@nestjs/common": "^7.0.0",
