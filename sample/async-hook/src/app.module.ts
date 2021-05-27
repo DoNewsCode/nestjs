@@ -13,7 +13,6 @@ import { RawGrpcProvider } from './proto/raw.service';
 import { DbService } from './service/db.service';
 import { GrpcService } from './service/grpc.service';
 
-
 const config: TracingConfig = {
   serviceName: 'nest-async-hook-server',
   sampler: {

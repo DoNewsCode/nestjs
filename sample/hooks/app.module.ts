@@ -3,12 +3,14 @@
  */
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 
-import { AsyncHooksMiddleware, AsyncHooksModule } from '../../packages/nestjs-tracing/lib/hook';
+import {
+  AsyncHooksMiddleware,
+  AsyncHooksModule,
+} from '../../packages/nestjs-tracing/lib/hook';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { DbService, GrpcService } from './service';
-
 
 @Module({
   imports: [AsyncHooksModule],

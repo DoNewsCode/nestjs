@@ -33,7 +33,8 @@ import { formatTracingModuleOptions } from './util/tracing-module-options.util';
   exports: [],
 })
 export class TracingModule
-  implements OnApplicationBootstrap, OnApplicationShutdown {
+  implements OnApplicationBootstrap, OnApplicationShutdown
+{
   constructor(private readonly httpService: HttpService) {}
 
   static tracer: Tracer;
@@ -78,9 +79,8 @@ export class TracingModule
     const TracerServiceProvider: FactoryProvider = {
       provide: TRACER,
       useFactory: (_options: TracingModuleOptions) => {
-        const { tracingConfig, tracingOption } = formatTracingModuleOptions(
-          _options,
-        );
+        const { tracingConfig, tracingOption } =
+          formatTracingModuleOptions(_options);
 
         const tracer: Tracer = initTracer(tracingConfig, tracingOption);
         TracingModule.tracer = tracer;

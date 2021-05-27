@@ -40,7 +40,7 @@ export class ConfigService {
     const processValue = process.env?.[propertyPath];
     // 这里其实应该去yargs取，暂时懒得改（这里有个限制,process.env只能传输字符串）
     if (!isUndefined(processValue)) {
-      return (processValue as unknown) as T;
+      return processValue as unknown as T;
     }
     const internalValue = get(this.internalConfig, propertyPath);
     return isUndefined(internalValue) ? defaultValue : internalValue;

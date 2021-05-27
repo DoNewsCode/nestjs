@@ -68,8 +68,7 @@ export class PlainLoggerService extends Logger implements LoggerInterface {
   }
 
   setLogContextRegex(contextList: string | RegExp | (string | RegExp)[]): void {
-    this.loggerContextRegexList = CommonUtil.generateContextRegexList(
-      contextList,
-    );
+    this.loggerContextRegexList =
+      CommonUtil.generateContextRegexList(contextList);
   }
 }

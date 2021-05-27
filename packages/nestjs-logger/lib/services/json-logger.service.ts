@@ -122,8 +122,7 @@ export class JsonLoggerService implements LoggerInterface {
   }
 
   setLogContextRegex(contextList: string | RegExp | (string | RegExp)[]): void {
-    this.loggerContextRegexList = CommonUtil.generateContextRegexList(
-      contextList,
-    );
+    this.loggerContextRegexList =
+      CommonUtil.generateContextRegexList(contextList);
   }
 }
