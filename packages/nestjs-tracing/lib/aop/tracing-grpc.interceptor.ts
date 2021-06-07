@@ -3,8 +3,8 @@
  */
 import { InterceptingCall, Listener, Metadata, Requester } from 'grpc';
 
-import { TRACER_CARRIER_INFO } from './constant';
-import { AsyncContext } from './hook';
+import { TRACER_CARRIER_INFO } from '../constant';
+import { AsyncContext } from '../hook';
 
 export function tracingGrpcInterceptor(
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types

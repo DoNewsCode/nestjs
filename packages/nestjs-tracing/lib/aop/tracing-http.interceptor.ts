@@ -23,10 +23,10 @@ import {
   TRACER_CARRIER_INFO,
   TRACER_STATE_HEADER_NAME,
   TRACING_MODULE_OPTIONS,
-} from './constant';
-import { AsyncContext } from './hook';
-import { TracingModuleOptions } from './interface/tracing.interface';
-import { isSpanContext } from './util/span.util';
+} from '../constant';
+import { AsyncContext } from '../hook';
+import { TracingModuleOptions } from '../interface/tracing.interface';
+import { isSpanContext } from '../util/span.util';
 
 /**
  * Created by Rain on 2020/7/21
