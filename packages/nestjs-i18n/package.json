@@ -1,7 +1,7 @@
 {
-  "name": "@donews/nestjs-config",
+  "name": "@donews/nestjs-i18n",
   "version": "0.8.4",
-  "description": "nestjs config module",
+  "description": "nestjs i18n module",
   "author": "toonewLi <litaixin01@163.com>",
   "license": "MIT",
   "main": "index.js",
@@ -17,15 +17,18 @@
     "url": "https://github.com/DoNewsCode/nestjs/issues"
   },
   "dependencies": {
-    "joi": "17.4.0",
-    "js-yaml": "^4.0.0",
-    "lodash": "^4.17.21"
+    "accept-language-parser": "1.5.0",
+    "chokidar": "3.5.1",
+    "cookie": "0.4.1",
+    "nestjs-i18n": "^8.1.1",
+    "rxjs": "7.1.0",
+    "string-format": "2.0.0"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.18",
-    "@nestjs/core": "7.6.18",
-    "@nestjs/platform-express": "7.6.18",
-    "@nestjs/testing": "7.6.18",
+    "@nestjs/common": "7.6.17",
+    "@nestjs/core": "7.6.17",
+    "@nestjs/platform-express": "7.6.17",
+    "@nestjs/testing": "7.6.17",
     "@types/lodash": "4.14.170"
   },
   "peerDependencies": {

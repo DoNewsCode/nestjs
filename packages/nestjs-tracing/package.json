@@ -1,6 +1,6 @@
 {
   "name": "@donews/nestjs-tracing",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "nestjs tracing module",
   "author": "toonewLi <litaixin01@163.com>",
   "license": "MIT",
