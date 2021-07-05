@@ -21,7 +21,7 @@
     "chokidar": "3.5.2",
     "cookie": "0.4.1",
     "nestjs-i18n": "^8.1.1",
-    "rxjs": "7.1.0",
+    "rxjs": "7.2.0",
     "string-format": "2.0.0"
   },
   "devDependencies": {
