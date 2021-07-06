@@ -40,7 +40,7 @@ export function SpanD(name: string): MethodDecorator {
 
       const result = original.apply(this, args);
 
-      if (result.then) {
+      if (result?.then) {
         result
           .then(() => {
             tracer.inject(span, FORMAT_TEXT_MAP, context);
