@@ -3,7 +3,8 @@
  */
 import * as assert from 'assert';
 
-import { HttpModule, HttpService, INestApplication } from '@nestjs/common';
+import { HttpModule, HttpService } from '@nestjs/axios';
+import { INestApplication } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import * as sinon from 'sinon';
 

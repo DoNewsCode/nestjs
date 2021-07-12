@@ -79,6 +79,29 @@ export class AppModule {}
 
 ### 3. http server receive request interceptor
 
+HttpModule 上的 HttpService 设置 interceptors
+
+```typescript
+import { HttpServiceInterceptors } from '@donews/nestjs-tracing/lib/http-service.interceptors';
+import { HttpModule, HttpService } from '@nestjs/axios';
+
+@Module({})
+export class AdModule implements OnApplicationBootstrap {
+  constructor(private readonly httpService: HttpService) {}
+  /**
+   * 设置axios拦截器，增加tracing信息
+   */
+  onApplicationBootstrap(): void {
+    this.httpService.axiosRef.interceptors.request.use(
+      ...HttpServiceInterceptors.interceptRequest(),
+    );
+    this.httpService.axiosRef.interceptors.response.use(
+      ...HttpServiceInterceptors.interceptResponse(),
+    );
+  }
+}
+```
+
 http-request-tracing 会自动读取 header 和 query 上的 tracingId，如果自定义了 tracingId key 值，请在模块导入 tracingOption 进行修改
 
 ```typescript

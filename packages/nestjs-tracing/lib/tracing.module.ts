@@ -2,10 +2,7 @@ import {
   DynamicModule,
   FactoryProvider,
   Global,
-  HttpModule,
-  HttpService,
   Module,
-  OnApplicationBootstrap,
   OnApplicationShutdown,
   Provider,
   Type,
@@ -15,7 +12,6 @@ import { Tracer } from 'opentracing';
 
 import { TRACER, TRACING_MODULE_OPTIONS } from './constant';
 import { AsyncHooksModule } from './hook';
-import { HttpServiceInterceptors } from './http-service.interceptors';
 import {
   TracingModuleAsyncOptions,
   TracingModuleOptions,
@@ -32,11 +28,7 @@ import { formatTracingModuleOptions } from './util/tracing-module-options.util';
   providers: [],
   exports: [],
 })
-export class TracingModule
-  implements OnApplicationBootstrap, OnApplicationShutdown
-{
-  constructor(private readonly httpService: HttpService) {}
-
+export class TracingModule implements OnApplicationShutdown {
   static tracer: Tracer;
 
   static forRoot(option: {
@@ -66,10 +58,10 @@ export class TracingModule
     providers.push(tracerProvider);
 
     return {
-      imports: [HttpModule],
+      imports: [],
       module: TracingModule,
       providers,
-      exports: [...providers, HttpModule],
+      exports: [...providers],
     };
   }
 
@@ -93,10 +85,10 @@ export class TracingModule
     providers.push(...TracingModule.createAsyncProviders(options));
 
     return {
-      imports: [HttpModule],
+      imports: [],
       module: TracingModule,
       providers,
-      exports: [...providers, HttpModule],
+      exports: [...providers],
     };
   }
 
@@ -136,18 +128,6 @@ export class TracingModule
         await optionsFactory.createTracingOptions(),
       inject,
     };
-  }
-
-  /**
-   * 设置axios拦截器，增加tracing信息
-   */
-  onApplicationBootstrap(): void {
-    this.httpService.axiosRef.interceptors.request.use(
-      ...HttpServiceInterceptors.interceptRequest(),
-    );
-    this.httpService.axiosRef.interceptors.response.use(
-      ...HttpServiceInterceptors.interceptResponse(),
-    );
   }
 
   onApplicationShutdown(signal?: string): any {
