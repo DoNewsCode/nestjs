@@ -1,10 +1,13 @@
-import { Logger } from '@nestjs/common';
+import { ConsoleLogger } from '@nestjs/common';
 
 import { DonewsLoggerLevels, LoggerLevel } from '../constant';
 import { LoggerInterface, LoggerOptions } from '../interfaces';
 import { CommonUtil } from '../util/common.util';
 
-export class PlainLoggerService extends Logger implements LoggerInterface {
+export class PlainLoggerService
+  extends ConsoleLogger
+  implements LoggerInterface
+{
   private loggerLevel: LoggerLevel;
   private loggerContextRegexList: RegExp[] = [];
 
