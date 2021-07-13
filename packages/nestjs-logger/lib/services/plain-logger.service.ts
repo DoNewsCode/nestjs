@@ -12,7 +12,7 @@ export class PlainLoggerService
   private loggerContextRegexList: RegExp[] = [];
 
   constructor(loggerOptions: LoggerOptions) {
-    super(loggerOptions.context);
+    super(loggerOptions.context || 'UserScope');
     this.setLogLevel(loggerOptions.loggerLevel);
     this.setLogContextRegex(loggerOptions.loggerContextList);
   }
