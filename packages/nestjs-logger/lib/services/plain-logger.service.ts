@@ -24,9 +24,12 @@ export class PlainLoggerService
     return DonewsLoggerLevels[this.loggerLevel] >= DonewsLoggerLevels[level];
   }
 
-  error(message: string, trace?: string, context?: string): void {
+  error(message: string, trace: string = '', context: string = ''): void {
     if (!this.isPrint('error', context)) {
       return;
+    }
+    if (!context) {
+      context = this.context;
     }
     super.error(message, trace, context);
   }
@@ -35,12 +38,18 @@ export class PlainLoggerService
     if (!this.isPrint('warn', context)) {
       return;
     }
+    if (!context) {
+      context = this.context;
+    }
     super.warn(message, context);
   }
 
   log(message: string, context?: string): void {
     if (!this.isPrint('log', context)) {
       return;
+    }
+    if (!context) {
+      context = this.context;
     }
     super.log(message, context);
   }
@@ -49,6 +58,9 @@ export class PlainLoggerService
     if (!this.isPrint('info', context)) {
       return;
     }
+    if (!context) {
+      context = this.context;
+    }
     super.log(message, context);
   }
 
@@ -56,12 +68,18 @@ export class PlainLoggerService
     if (!this.isPrint('debug', context)) {
       return;
     }
+    if (!context) {
+      context = this.context;
+    }
     super.debug(message, context);
   }
 
   verbose(message: string, context?: string): void {
     if (!this.isPrint('verbose', context)) {
       return;
+    }
+    if (!context) {
+      context = this.context;
     }
     super.verbose(message, context);
   }
