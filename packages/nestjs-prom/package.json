@@ -1,6 +1,6 @@
 {
   "name": "@donews/nestjs-prom",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "nestjs prom module",
   "author": "toonewLi <litaixin01@163.com>",
   "license": "MIT",
