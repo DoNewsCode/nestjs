@@ -28,7 +28,7 @@
     "@nestjs/platform-express": "8.0.4",
     "@nestjs/testing": "8.0.4",
     "express": "4.17.1",
-    "grpc": "1.24.10",
+    "grpc": "1.24.11",
     "rxjs": "7.2.0"
   },
   "peerDependencies": {
