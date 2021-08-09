@@ -6,6 +6,6 @@
     "@nestjs/microservices": "8.0.4",
     "@nestjs/platform-express": "8.0.4",
     "reflect-metadata": "0.1.13",
-    "rxjs": "7.2.0"
+    "rxjs": "7.3.0"
   }
 }
