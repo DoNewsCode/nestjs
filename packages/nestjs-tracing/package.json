@@ -17,7 +17,7 @@
     "url": "https://github.com/DoNewsCode/nestjs/issues"
   },
   "dependencies": {
-    "axios": "0.21.1",
+    "axios": "0.21.3",
     "jaeger-client": "^3.18.1",
     "opentracing": "^0.14.5"
   },
