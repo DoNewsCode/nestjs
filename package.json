@@ -42,7 +42,7 @@
     "@typescript-eslint/eslint-plugin": "4.32.0",
     "@typescript-eslint/parser": "4.32.0",
     "cli-color": "2.0.0",
-    "concurrently": "6.2.2",
+    "concurrently": "6.3.0",
     "delete-empty": "3.0.0",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
