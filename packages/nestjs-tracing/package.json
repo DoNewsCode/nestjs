@@ -29,7 +29,7 @@
     "@nestjs/testing": "8.0.7",
     "express": "4.17.1",
     "grpc": "1.24.11",
-    "rxjs": "7.3.0"
+    "rxjs": "7.4.0"
   },
   "peerDependencies": {
     "@nestjs/common": "^8.0.0",
