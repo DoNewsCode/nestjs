@@ -22,10 +22,10 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@nestjs/common": "8.1.1",
-    "@nestjs/core": "8.1.1",
-    "@nestjs/platform-express": "8.1.1",
-    "@nestjs/testing": "8.1.1",
+    "@nestjs/common": "8.2.3",
+    "@nestjs/core": "8.2.3",
+    "@nestjs/platform-express": "8.2.3",
+    "@nestjs/testing": "8.2.3",
     "@types/lodash": "4.14.177"
   },
   "peerDependencies": {
