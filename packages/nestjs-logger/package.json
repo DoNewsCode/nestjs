@@ -17,10 +17,10 @@
     "url": "https://github.com/DoNewsCode/nestjs/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "8.1.1",
-    "@nestjs/core": "8.1.1",
-    "@nestjs/platform-express": "8.1.1",
-    "@nestjs/testing": "8.1.1"
+    "@nestjs/common": "8.2.3",
+    "@nestjs/core": "8.2.3",
+    "@nestjs/platform-express": "8.2.3",
+    "@nestjs/testing": "8.2.3"
   },
   "peerDependencies": {
     "@nestjs/common": "^8.0.0",
