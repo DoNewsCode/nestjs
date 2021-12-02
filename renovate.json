@@ -6,6 +6,5 @@
       "depTypeList": ["devDependencies"],
       "automerge": true
     }
-  ],
-  "ignoreDeps": ["husky", "@commitlint/cli", "@commitlint/config-angular"]
+  ]
 }
