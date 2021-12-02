@@ -2,6 +2,7 @@
   "name": "donews",
   "author": "toonew",
   "scripts": {
+    "prepare": "husky install",
     "build": "gulp build --dist node_modules/@donews",
     "postbuild": "gulp move",
     "prebuild:prod": "npm run clean",
@@ -26,15 +27,9 @@
       "prettier --ignore-path ./.prettierignore --write"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -c .commitlintrc.json -E HUSKY_GIT_PARAMS"
-    }
-  },
   "devDependencies": {
-    "@commitlint/cli": "12.1.4",
-    "@commitlint/config-angular": "12.1.4",
+    "@commitlint/cli": "15.0.0",
+    "@commitlint/config-angular": "15.0.0",
     "@donews/eslint-config-donews": "1.0.3",
     "@types/mocha": "9.0.0",
     "@types/node": "16.11.11",
@@ -51,7 +46,7 @@
     "gulp-clean": "0.4.0",
     "gulp-sourcemaps": "3.0.0",
     "gulp-typescript": "5.0.1",
-    "husky": "4.3.8",
+    "husky": "7.0.4",
     "lerna": "4.0.0",
     "lint-staged": "12.1.2",
     "mocha": "9.1.3",
