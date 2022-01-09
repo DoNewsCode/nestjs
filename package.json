@@ -28,7 +28,7 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "16.0.1",
+    "@commitlint/cli": "16.0.2",
     "@commitlint/config-angular": "16.0.0",
     "@donews/eslint-config-donews": "1.0.3",
     "@types/mocha": "9.0.0",
