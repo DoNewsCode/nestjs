@@ -31,7 +31,7 @@
     "@commitlint/cli": "16.0.3",
     "@commitlint/config-angular": "16.0.0",
     "@donews/eslint-config-donews": "1.0.3",
-    "@types/mocha": "9.0.0",
+    "@types/mocha": "9.1.0",
     "@types/node": "16.11.21",
     "@types/sinon": "10.0.6",
     "@typescript-eslint/eslint-plugin": "5.10.0",
