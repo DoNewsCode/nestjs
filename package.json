@@ -39,7 +39,7 @@
     "cli-color": "2.0.1",
     "concurrently": "7.0.0",
     "delete-empty": "3.0.0",
-    "eslint": "8.7.0",
+    "eslint": "8.8.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.25.4",
     "gulp": "4.0.2",
