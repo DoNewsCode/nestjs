@@ -1,10 +1,10 @@
 {
   "name": "nest-async-hook",
   "dependencies": {
-    "@nestjs/common": "8.3.0",
-    "@nestjs/core": "8.3.0",
-    "@nestjs/microservices": "8.3.0",
-    "@nestjs/platform-express": "8.3.0",
+    "@nestjs/common": "8.3.1",
+    "@nestjs/core": "8.3.1",
+    "@nestjs/microservices": "8.3.1",
+    "@nestjs/platform-express": "8.3.1",
     "reflect-metadata": "0.1.13",
     "rxjs": "7.5.4"
   }
