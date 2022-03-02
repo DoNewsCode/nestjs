@@ -1,6 +1,6 @@
 {
   "name": "@donews/nestjs-logger",
-  "version": "0.9.3",
+  "version": "0.10.0",
   "description": "nestjs logger module",
   "author": "toonewLi <litaixin01@163.com>",
   "license": "MIT",
