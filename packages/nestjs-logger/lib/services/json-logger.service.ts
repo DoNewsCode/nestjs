@@ -1,5 +1,7 @@
+import * as util from 'util';
+
 import { DonewsLoggerLevels, LoggerLevel } from '../constant';
-import { LoggerInterface, LoggerOptions } from '../interfaces';
+import { LoggerInterface, LoggerOptions, LogInfoType } from '../interfaces';
 import { CommonUtil } from '../util/common.util';
 
 export class JsonLoggerService implements LoggerInterface {
@@ -21,6 +23,11 @@ export class JsonLoggerService implements LoggerInterface {
     return /^{|(^\[.*]$)/gi.test(str);
   }
 
+  /**
+   * 根据 log level 和 context 判断是否需要输出日志
+   * @param {LoggerLevel}level
+   * @param {string}context
+   */
   isPrint(level: LoggerLevel, context?: string): boolean {
     if (CommonUtil.checkContextByRegex(this.loggerContextRegexList, context)) {
       return true;
@@ -28,12 +35,24 @@ export class JsonLoggerService implements LoggerInterface {
     return DonewsLoggerLevels[this.loggerLevel] >= DonewsLoggerLevels[level];
   }
 
-  private static prepare(message: string): string {
+  private static prepare(value: LogInfoType): string {
+    let message = '';
+    if (typeof value === 'object') {
+      try {
+        message = JSON.stringify(value);
+      } catch (err) {
+        message = util.inspect(value);
+      }
+    }
+    if (typeof value === 'string') {
+      message = value;
+    }
+
     // 防止message字段答应出json结构，导致es解析失败
     return JsonLoggerService.isJson(message) ? '\\' + message : message;
   }
 
-  error(message: string, trace?: string, context?: string): void {
+  error(message: LogInfoType, context?: string, trace?: LogInfoType): void {
     if (!this.isPrint('error', context)) {
       return;
     }
@@ -46,7 +65,7 @@ export class JsonLoggerService implements LoggerInterface {
     });
   }
 
-  warn(message: string, context?: string): void {
+  warn(message: LogInfoType, context?: string): void {
     if (!this.isPrint('warn', context)) {
       return;
     }
@@ -57,7 +76,7 @@ export class JsonLoggerService implements LoggerInterface {
     });
   }
 
-  log(message: string, context?: string): void {
+  log(message: LogInfoType, context?: string): void {
     if (!this.isPrint('log', context)) {
       return;
     }
@@ -68,7 +87,7 @@ export class JsonLoggerService implements LoggerInterface {
     });
   }
 
-  info(message: string, context?: string): void {
+  info(message: LogInfoType, context?: string): void {
     if (!this.isPrint('info', context)) {
       return;
     }
@@ -79,7 +98,7 @@ export class JsonLoggerService implements LoggerInterface {
     });
   }
 
-  debug(message: string, context?: string): void {
+  debug(message: LogInfoType, context?: string): void {
     if (!this.isPrint('debug', context)) {
       return;
     }
@@ -90,7 +109,7 @@ export class JsonLoggerService implements LoggerInterface {
     });
   }
 
-  verbose(message: string, context?: string): void {
+  verbose(message: LogInfoType, context?: string): void {
     if (!this.isPrint('verbose', context)) {
       return;
     }

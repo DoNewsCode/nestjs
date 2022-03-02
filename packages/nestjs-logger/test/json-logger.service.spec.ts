@@ -36,6 +36,8 @@ describe('json-logger.service.spec', () => {
     log.verbose('verbose', 'verbose');
 
     log.verbose(JSON.stringify({ test: 1 }), JSON.stringify({ test: 1 }));
+    log.verbose({ test: 1 }, JSON.stringify({ test: 1 }));
+    log.verbose([{ test: 1 }], 'context');
   });
 
   it('setLogContextRegex test', () => {

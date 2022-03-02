@@ -3,12 +3,14 @@ import { ModuleMetadata } from '@nestjs/common/interfaces';
 
 import { LOGGER_TYPE, LoggerLevel } from '../constant';
 
+export type LogInfoType = string | Record<any, any>;
+
 export interface LoggerInterface extends LoggerService {
-  info(message: string, context?: string): void;
-  error(message: string, trace?: string, context?: string): void;
-  warn(message: string, context?: string): any;
-  debug?(message: string, context?: string): any;
-  verbose?(message: string, context?: string): any;
+  info(message: LogInfoType, context?: string): void;
+  error(message: LogInfoType, trace?: string, context?: string): void;
+  warn(message: LogInfoType, context?: string): any;
+  debug?(message: LogInfoType, context?: string): any;
+  verbose?(message: LogInfoType, context?: string): any;
   setLogLevel(logLevel: LoggerLevel): void;
   setLogContextRegex(contextList: string | RegExp | (string | RegExp)[]): void;
 }
