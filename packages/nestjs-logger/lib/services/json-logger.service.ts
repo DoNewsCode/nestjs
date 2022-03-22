@@ -52,7 +52,7 @@ export class JsonLoggerService implements LoggerInterface {
     return JsonLoggerService.isJson(message) ? '\\' + message : message;
   }
 
-  error(message: LogInfoType, context?: string, trace?: LogInfoType): void {
+  error(message: string, trace?: string, context?: string): void {
     if (!this.isPrint('error', context)) {
       return;
     }
