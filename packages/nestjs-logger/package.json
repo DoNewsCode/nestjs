@@ -1,6 +1,6 @@
 {
   "name": "@donews/nestjs-logger",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "nestjs logger module",
   "author": "toonewLi <litaixin01@163.com>",
   "license": "MIT",
@@ -25,5 +25,6 @@
   "peerDependencies": {
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0"
-  }
+  },
+  "gitHead": "e530d4f891dfef800cb2fb8dfe318045608fd1dc"
 }
