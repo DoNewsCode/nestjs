@@ -32,7 +32,7 @@
     "@commitlint/config-angular": "17.0.0",
     "@donews/eslint-config-donews": "1.0.3",
     "@types/mocha": "9.1.1",
-    "@types/node": "16.11.38",
+    "@types/node": "16.11.39",
     "@types/sinon": "10.0.11",
     "@typescript-eslint/eslint-plugin": "5.27.1",
     "@typescript-eslint/parser": "5.27.1",
