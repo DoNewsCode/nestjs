@@ -47,7 +47,7 @@
     "gulp-sourcemaps": "3.0.0",
     "gulp-typescript": "5.0.1",
     "husky": "8.0.3",
-    "lerna": "6.4.0",
+    "lerna": "6.4.1",
     "lint-staged": "13.1.0",
     "mocha": "10.2.0",
     "nyc": "15.1.0",
