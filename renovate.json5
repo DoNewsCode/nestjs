@@ -7,4 +7,5 @@
       automerge: true,
     },
   ],
+  updateInternalDeps: true,
 }
