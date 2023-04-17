@@ -1,10 +1,10 @@
 {
-  "extends": ["config:base"],
-  "semanticCommits": "auto",
-  "packageRules": [
+  extends: ['config:base'],
+  semanticCommits: 'auto',
+  packageRules: [
     {
-      "depTypeList": ["devDependencies"],
-      "automerge": true
-    }
-  ]
+      matchDepTypes: ['dependencies', 'devDependencies'],
+      automerge: true,
+    },
+  ],
 }
