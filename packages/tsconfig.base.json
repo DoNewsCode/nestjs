@@ -1,21 +1,23 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+
     "declaration": true,
-    "noImplicitAny": false,
-    "skipLibCheck": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": false,
-    "importHelpers": true,
+    "sourceMap": true,
     "removeComments": false,
-    "noLib": false,
+
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es2017",
-    "sourceMap": false,
+    "noLib": false,
+    "target": "ES2017",
+
     "allowJs": false,
     "strict": true,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "noUnusedLocals": false,
+    "importHelpers": true
   },
   "exclude": ["../node_modules", "./**/*.spec.ts"]
 }
