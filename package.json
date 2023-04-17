@@ -33,7 +33,7 @@
     "@donews/eslint-config-donews": "1.0.3",
     "@types/mocha": "10.0.1",
     "@types/node": "18.15.11",
-    "@types/sinon": "10.0.13",
+    "@types/sinon": "10.0.14",
     "@typescript-eslint/eslint-plugin": "5.54.1",
     "@typescript-eslint/parser": "5.54.1",
     "cli-color": "2.0.3",
