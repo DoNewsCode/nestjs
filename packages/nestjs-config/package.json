@@ -22,15 +22,15 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@nestjs/common": "8.4.7",
-    "@nestjs/core": "8.4.7",
-    "@nestjs/platform-express": "8.4.7",
-    "@nestjs/testing": "8.4.7",
+    "@nestjs/common": "9.4.0",
+    "@nestjs/core": "9.4.0",
+    "@nestjs/platform-express": "9.4.0",
+    "@nestjs/testing": "9.4.0",
     "@types/lodash": "4.14.191"
   },
   "peerDependencies": {
-    "@nestjs/common": "^8.0.0",
-    "@nestjs/core": "^8.0.0"
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0"
   },
   "gitHead": "e530d4f891dfef800cb2fb8dfe318045608fd1dc"
 }

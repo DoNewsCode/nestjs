@@ -19,5 +19,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  rules: {},
+  rules: {
+    '@typescript-eslint/prefer-nullish-coalescing': 'off',
+  },
 };
