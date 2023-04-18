@@ -1,5 +1,6 @@
 {
   "name": "hooks",
+  "private": true,
   "dependencies": {
     "@donews/nestjs-tracing": "workspace:*",
     "@nestjs/common": "9.4.0",
