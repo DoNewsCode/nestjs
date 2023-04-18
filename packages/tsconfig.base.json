@@ -16,8 +16,7 @@
     "strictNullChecks": false,
     "noImplicitAny": false,
     "skipLibCheck": true,
-    "noUnusedLocals": false,
-    "importHelpers": true
+    "noUnusedLocals": false
   },
   "exclude": ["../node_modules", "./**/*.spec.ts"]
 }

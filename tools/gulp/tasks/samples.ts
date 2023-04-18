@@ -46,13 +46,6 @@ async function executeNpmScriptInSamples(
   }
 }
 
-task('install:samples', async () =>
-  executeNpmScriptInSamples(
-    // 'npm ci --no-audit --no-shrinkwrap --no-optional',
-    'npm install',
-  ),
-);
-task('build:samples', async () => executeNpmScriptInSamples('npm run build'));
 task('test:samples', async () =>
   executeNpmScriptInSamples('npm run test', '--passWithNoTests'),
 );

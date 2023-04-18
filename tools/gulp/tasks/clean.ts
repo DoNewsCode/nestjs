@@ -16,6 +16,7 @@ function cleanOutput() {
     ],
     {
       read: false,
+      ignore: [`${source}/**/node_modules/**`],
     },
   ).pipe(clean());
 }

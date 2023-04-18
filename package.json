@@ -3,11 +3,10 @@
   "author": "toonew",
   "scripts": {
     "prepare": "husky install",
-    "build": "gulp build --dist node_modules/@donews",
-    "postbuild": "gulp move",
+    "build": "gulp build",
     "prebuild:prod": "npm run clean",
     "build:prod": "gulp build",
-    "build:samples": "gulp install:samples && npm run build && gulp build:samples && gulp test:samples && gulp test:e2e:samples",
+    "build:samples": "npm run build:prod && gulp test:samples && gulp test:e2e:samples",
     "clean": "gulp clean:bundle",
     "format": "prettier \"**/*.ts\" --ignore-path ./.prettierignore --write && git status",
     "test": "nyc --require ts-node/register mocha packages/**/*.spec.ts --reporter spec --retries 3 --require 'node_modules/reflect-metadata/Reflect.js' --exit",
@@ -15,12 +14,12 @@
     "lint:fix": "concurrently \"npm run lint:packages -- --fix\" \"npm run lint:spec -- --fix\"",
     "lint:packages": "eslint \"packages/**/**.ts\" --ignore-pattern \"packages/**/*.spec.ts\"",
     "lint:spec": "eslint \"packages/**/**.spec.ts\" -c \".eslintrc.spec.js\"",
-    "prerelease": "gulp copy-misc && gulp build --dist node_modules/@donews",
-    "publish": "npm run prerelease && npm run build:prod && lerna publish --force-publish --exact -m \"chore(@donews): publish %s release\"",
-    "publish:beta": "npm run prerelease && npm run build:prod && lerna publish --force-publish --dist-tag=beta -m \"chore(@donews): publish %s release\"",
-    "publish:next": "npm run prerelease && npm run build:prod && lerna publish --force-publish --dist-tag=next --skip-git -m \"chore(@donews): publish %s release\"",
-    "publish:rc": "npm run prerelease && npm run build:prod && lerna publish --force-publish --dist-tag=rc -m \"chore(@donews): publish %s release\"",
-    "publish:test": "npm run prerelease && npm run build:prod && lerna publish --force-publish --dist-tag=test --skip-git -m \"chore(@donews): publish %s release\""
+    "prerelease": "gulp copy-misc",
+    "publish": "     npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --exact --force-publish -m \"chore(@donews): publish %s release\"",
+    "publish:beta": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=beta -m \"chore(@donews): publish %s release\"",
+    "publish:next": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=next --skip-git -m \"chore(@donews): publish %s release\"",
+    "publish:rc": "  npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=rc -m \"chore(@donews): publish %s release\"",
+    "publish:test": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=test --skip-git --force-publish -m \"chore(@donews): publish %s release\""
   },
   "lint-staged": {
     "packages/**/*.{ts,json}": [
@@ -31,6 +30,7 @@
     "@commitlint/cli": "17.6.1",
     "@commitlint/config-angular": "17.6.1",
     "@donews/eslint-config-donews": "1.0.3",
+    "@types/gulp": "4.0.10",
     "@types/mocha": "10.0.1",
     "@types/node": "18.15.11",
     "@types/sinon": "10.0.14",
@@ -42,6 +42,7 @@
     "eslint": "8.38.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
+    "fancy-log": "2.0.0",
     "gulp": "4.0.2",
     "gulp-clean": "0.4.0",
     "gulp-sourcemaps": "3.0.0",
@@ -56,5 +57,8 @@
     "sinon": "15.0.3",
     "ts-node": "10.9.1",
     "typescript": "5.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

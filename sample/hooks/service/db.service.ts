@@ -3,7 +3,7 @@
  */
 import { Injectable } from '@nestjs/common';
 
-import { AsyncContext } from '../../../packages/nestjs-tracing/lib/hook';
+import { AsyncContext } from '@donews/nestjs-tracing';
 
 @Injectable()
 export class DbService {

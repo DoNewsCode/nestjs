@@ -10,7 +10,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.connectMicroservice(grpcClientOptions);
-  await app.startAllMicroservicesAsync();
+  await app.startAllMicroservices();
   await app.listen(3001);
 }
 
