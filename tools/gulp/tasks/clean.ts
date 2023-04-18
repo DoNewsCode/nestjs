@@ -13,8 +13,6 @@ function cleanOutput() {
       `${source}/**/*.d.ts`,
       `${source}/**/*.js.map`,
       `${source}/**/*.d.ts.map`,
-      `${source}/**/\.npmignore`,
-      `${source}/**/*LICENSE`,
     ],
     {
       read: false,
