@@ -1,5 +1,5 @@
 {
-  "name": "nest-async-hook",
+  "name": "hooks",
   "dependencies": {
     "@donews/nestjs-tracing": "0.10.2",
     "@nestjs/common": "9.4.0",
