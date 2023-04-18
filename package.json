@@ -14,12 +14,12 @@
     "lint:fix": "concurrently \"npm run lint:packages -- --fix\" \"npm run lint:spec -- --fix\"",
     "lint:packages": "eslint \"packages/**/**.ts\" --ignore-pattern \"packages/**/*.spec.ts\"",
     "lint:spec": "eslint \"packages/**/**.spec.ts\" -c \".eslintrc.spec.js\"",
-    "prerelease": "npm run clean && gulp copy-misc",
-    "publish": "     npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --access public --exact --force-publish -m \"chore(@donews): publish %s release\"",
-    "publish:beta": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --access public --npm-tag=beta -m \"chore(@donews): publish %s release\"",
-    "publish:next": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --access public --npm-tag=next --skip-git -m \"chore(@donews): publish %s release\"",
-    "publish:rc": "  npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --access public --npm-tag=rc -m \"chore(@donews): publish %s release\"",
-    "publish:test": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --access public --npm-tag=test --skip-git --force-publish -m \"chore(@donews): publish %s release\""
+    "prerelease": "gulp copy-misc",
+    "publish": "     npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --exact --force-publish -m \"chore(@donews): publish %s release\"",
+    "publish:beta": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=beta -m \"chore(@donews): publish %s release\"",
+    "publish:next": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=next --skip-git -m \"chore(@donews): publish %s release\"",
+    "publish:rc": "  npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=rc -m \"chore(@donews): publish %s release\"",
+    "publish:test": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=test --skip-git --force-publish -m \"chore(@donews): publish %s release\""
   },
   "lint-staged": {
     "packages/**/*.{ts,json}": [
@@ -57,5 +57,8 @@
     "sinon": "15.0.3",
     "ts-node": "10.9.1",
     "typescript": "5.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
