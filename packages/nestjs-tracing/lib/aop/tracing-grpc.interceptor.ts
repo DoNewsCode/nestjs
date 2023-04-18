@@ -1,7 +1,7 @@
 /**
  * Created by Rain on 2020/7/21
  */
-import { InterceptingCall, Listener, Metadata, Requester } from 'grpc';
+import { InterceptingCall, Listener, Metadata, Requester } from '@grpc/grpc-js';
 
 import { TRACER_CARRIER_INFO } from '../constant';
 import { AsyncContext } from '../hook';
