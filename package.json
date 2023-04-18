@@ -4,7 +4,6 @@
   "scripts": {
     "prepare": "husky install",
     "build": "gulp build",
-    "postbuild": "gulp move",
     "prebuild:prod": "npm run clean",
     "build:prod": "gulp build",
     "build:samples": "npm run build:prod && gulp test:samples && gulp test:e2e:samples",
@@ -15,8 +14,8 @@
     "lint:fix": "concurrently \"npm run lint:packages -- --fix\" \"npm run lint:spec -- --fix\"",
     "lint:packages": "eslint \"packages/**/**.ts\" --ignore-pattern \"packages/**/*.spec.ts\"",
     "lint:spec": "eslint \"packages/**/**.spec.ts\" -c \".eslintrc.spec.js\"",
-    "prerelease": "gulp copy-misc && gulp build --dist node_modules/@donews",
-    "publish": "npm run prerelease && npm run build:prod      && ./node_modules/.bin/lerna publish --access public --exact --force-publish -m \"chore(@donews): publish %s release\"",
+    "prerelease": "npm run clean && gulp copy-misc",
+    "publish": "     npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --access public --exact --force-publish -m \"chore(@donews): publish %s release\"",
     "publish:beta": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --access public --npm-tag=beta -m \"chore(@donews): publish %s release\"",
     "publish:next": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --access public --npm-tag=next --skip-git -m \"chore(@donews): publish %s release\"",
     "publish:rc": "  npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --access public --npm-tag=rc -m \"chore(@donews): publish %s release\"",
