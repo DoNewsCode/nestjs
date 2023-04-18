@@ -6,7 +6,7 @@ import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import {
   AsyncHooksMiddleware,
   AsyncHooksModule,
-} from '../../packages/nestjs-tracing/lib/hook';
+} from '@donews/nestjs-tracing/';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';

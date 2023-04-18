@@ -2,10 +2,10 @@ import { join } from 'path';
 
 import { FactoryProvider } from '@nestjs/common';
 import { ClientProxyFactory, Transport } from '@nestjs/microservices';
-import { CallOptions, credentials, Metadata } from 'grpc';
+import { CallOptions, credentials, Metadata } from '@grpc/grpc-js';
 import { Observable } from 'rxjs';
 
-import { tracingGrpcInterceptor } from '@donews/nestjs-tracing';
+import { tracingGrpcInterceptor } from '@donews/nestjs-tracing/lib/aop/tracing-grpc.interceptor';
 
 export interface RawService {
   say(

@@ -3,7 +3,7 @@
  */
 import { Controller, Get, Post } from '@nestjs/common';
 
-import { AsyncContext } from '../../packages/nestjs-tracing/lib/hook';
+import { AsyncContext } from '@donews/nestjs-tracing';
 
 import { AppService } from './app.service';
 
