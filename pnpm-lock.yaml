@@ -98,8 +98,8 @@ importers:
   packages/nestjs-config:
     dependencies:
       joi:
-        specifier: 17.9.1
-        version: 17.9.1
+        specifier: 17.9.2
+        version: 17.9.2
       js-yaml:
         specifier: ^4.0.0
         version: 4.1.0
@@ -5921,8 +5921,8 @@ packages:
       minimatch: 3.1.2
     dev: true
 
-  /joi@17.9.1:
-    resolution: {integrity: sha512-FariIi9j6QODKATGBrEX7HZcja8Bsh3rfdGYy/Sb65sGlZWK/QWesU1ghk7aJWDj95knjXlQfSmzFSPPkLVsfw==}
+  /joi@17.9.2:
+    resolution: {integrity: sha512-Itk/r+V4Dx0V3c7RLFdRh12IOjySm2/WGPMubBT92cQvRfYZhPM2W0hZlctjj72iES8jsRCwp7S/cRmWBnJ4nw==}
     dependencies:
       '@hapi/hoek': 9.3.0
       '@hapi/topo': 5.1.0
