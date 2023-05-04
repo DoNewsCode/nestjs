@@ -27,8 +27,8 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "17.6.1",
-    "@commitlint/config-angular": "17.6.1",
+    "@commitlint/cli": "17.6.3",
+    "@commitlint/config-angular": "17.6.3",
     "@donews/eslint-config-donews": "1.0.3",
     "@types/gulp": "4.0.10",
     "@types/mocha": "10.0.1",
