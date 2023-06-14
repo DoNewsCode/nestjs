@@ -72,8 +72,8 @@ importers:
         specifier: 8.0.3
         version: 8.0.3
       lerna:
-        specifier: 7.0.0
-        version: 7.0.0
+        specifier: 7.0.1
+        version: 7.0.1
       lint-staged:
         specifier: 13.2.2
         version: 13.2.2
@@ -842,8 +842,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@lerna/child-process@7.0.0:
-    resolution: {integrity: sha512-aY1Lvu8yA/TuyoNJmVyTBMuzj06LYy9OkfAUA2/YcTuFj3To1v0m0ImnKt+cCj6iEhEeZiW/qo98zFsyjleh6Q==}
+  /@lerna/child-process@7.0.1:
+    resolution: {integrity: sha512-lov3hXcX+g76fjQ5kg6+QdffL6kFw/aH3sG7NGk61mZfsWCDum9kcp9biqIRAmD6xJbrQsr1i0i9YeCMnHJ6pA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     dependencies:
       chalk: 4.1.2
@@ -851,11 +851,11 @@ packages:
       strong-log-transformer: 2.1.0
     dev: true
 
-  /@lerna/create@7.0.0:
-    resolution: {integrity: sha512-GcfZi0Ix+rcqC+LQyZyQ+BFuC8VxBnTJO14ENIwE4Yv2C1VJzCSqKrKtYeDFBQ9qpKadUoEH1ojSHQGTJZmBPw==}
+  /@lerna/create@7.0.1:
+    resolution: {integrity: sha512-vv9gtbrn/gBwQLdDlUeatO3uY58nxMktv9h9/5GEFcBesV9MAeQ0zRz8zkr2C0DX/m25lE+J5KTzJqZtMb03kw==}
     engines: {node: ^14.17.0 || >=16.0.0}
     dependencies:
-      '@lerna/child-process': 7.0.0
+      '@lerna/child-process': 7.0.1
       dedent: 0.7.0
       fs-extra: 11.1.1
       init-package-json: 5.0.0
@@ -1269,7 +1269,7 @@ packages:
       '@octokit/graphql': 5.0.5
       '@octokit/request': 6.2.3
       '@octokit/request-error': 3.0.3
-      '@octokit/types': 9.0.0
+      '@octokit/types': 9.2.3
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
@@ -1294,10 +1294,6 @@ packages:
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
       - encoding
-    dev: true
-
-  /@octokit/openapi-types@16.0.0:
-    resolution: {integrity: sha512-JbFWOqTJVLHZSUUoF4FzAZKYtqdxWu9Z5m2QQnOyEa04fOFljvyh7D3GYKbfuaSWisqehImiVIMG4eyJeP5VEA==}
     dev: true
 
   /@octokit/openapi-types@17.2.0:
@@ -1374,12 +1370,6 @@ packages:
 
   /@octokit/tsconfig@1.0.2:
     resolution: {integrity: sha512-I0vDR0rdtP8p2lGMzvsJzbhdOWy405HcGovrspJ8RRibHnyRgggUSNO5AIox5LmqiwmatHKYsvj6VGFHkqS7lA==}
-    dev: true
-
-  /@octokit/types@9.0.0:
-    resolution: {integrity: sha512-LUewfj94xCMH2rbD5YJ+6AQ4AVjFYTgpp6rboWM5T7N3IsIF65SBEOVcYMGAEzO/kKNiNaW4LoWtoThOhH06gw==}
-    dependencies:
-      '@octokit/openapi-types': 16.0.0
     dev: true
 
   /@octokit/types@9.2.3:
@@ -5784,13 +5774,13 @@ packages:
       flush-write-stream: 1.1.1
     dev: true
 
-  /lerna@7.0.0:
-    resolution: {integrity: sha512-g84mUPUcPFCZ7RpJ2TQjEqIq0XbhbghcZgnoUfk83fUmyN8vozxqF4TqRVWkHEd0MCvf0OO3h8n422ZGe3jG3w==}
+  /lerna@7.0.1:
+    resolution: {integrity: sha512-kX279o8N/L2URwoR3Pf4TdIl5P8G443qAFy095ZD+Vu1tOMo8U6xOc221EgHoMuYhdqlT3f0vgn5bMMr/xNYhQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@lerna/child-process': 7.0.0
-      '@lerna/create': 7.0.0
+      '@lerna/child-process': 7.0.1
+      '@lerna/create': 7.0.1
       '@npmcli/run-script': 6.0.2
       '@nx/devkit': 16.3.2(nx@16.3.2)
       '@octokit/plugin-enterprise-rest': 6.0.1
