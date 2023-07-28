@@ -177,8 +177,8 @@ importers:
         version: 0.14.5
     devDependencies:
       '@grpc/grpc-js':
-        specifier: 1.8.20
-        version: 1.8.20
+        specifier: 1.8.21
+        version: 1.8.21
       '@nestjs/axios':
         specifier: 3.0.0
         version: 3.0.0(@nestjs/common@9.4.3)(axios@1.4.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
@@ -207,8 +207,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/nestjs-tracing
       '@grpc/grpc-js':
-        specifier: 1.8.20
-        version: 1.8.20
+        specifier: 1.8.21
+        version: 1.8.21
       '@nestjs/common':
         specifier: 9.4.3
         version: 9.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
@@ -217,7 +217,7 @@ importers:
         version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/microservices':
         specifier: 9.4.3
-        version: 9.4.3(@grpc/grpc-js@1.8.20)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+        version: 9.4.3(@grpc/grpc-js@1.8.21)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/platform-express':
         specifier: 9.4.3
         version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)
@@ -241,7 +241,7 @@ importers:
         version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/microservices':
         specifier: 9.4.3
-        version: 9.4.3(@grpc/grpc-js@1.8.20)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+        version: 9.4.3(@grpc/grpc-js@1.8.21)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/platform-express':
         specifier: 9.4.3
         version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)
@@ -699,8 +699,8 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
-  /@grpc/grpc-js@1.8.20:
-    resolution: {integrity: sha512-SPse1wE4PcIFojOISsAnrWXCBsCBwDdcDqz2SS0T8nBSxg9jwmCK70Jy7ypRn2nIspwLy3Ls5TNaKNHo+6dF8A==}
+  /@grpc/grpc-js@1.8.21:
+    resolution: {integrity: sha512-KeyQeZpxeEBSqFVTi3q2K7PiPXmgBfECc4updA1ejCLjYmoAlvvM3ZMp5ztTDUCUQmoY3CpDxvchjO1+rFkoHg==}
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.6
@@ -942,7 +942,7 @@ packages:
         optional: true
     dependencies:
       '@nestjs/common': 9.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/microservices': 9.4.3(@grpc/grpc-js@1.8.20)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/microservices': 9.4.3(@grpc/grpc-js@1.8.21)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/platform-express': 9.4.3(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
@@ -955,7 +955,7 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@nestjs/microservices@9.4.3(@grpc/grpc-js@1.8.20)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1):
+  /@nestjs/microservices@9.4.3(@grpc/grpc-js@1.8.21)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1):
     resolution: {integrity: sha512-piMw8d3C4ppc5St5AhQEtecMhyeBK2Q1VYk4AL3NKtG6U0fzz/6KLiETpWdKXmazeI/m7qac2upOvwmRzle0aA==}
     peerDependencies:
       '@grpc/grpc-js': '*'
@@ -991,7 +991,7 @@ packages:
       nats:
         optional: true
     dependencies:
-      '@grpc/grpc-js': 1.8.20
+      '@grpc/grpc-js': 1.8.21
       '@nestjs/common': 9.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/core': 9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       iterare: 1.2.1
