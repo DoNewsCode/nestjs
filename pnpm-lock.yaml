@@ -102,8 +102,8 @@ importers:
   packages/nestjs-config:
     dependencies:
       joi:
-        specifier: 17.9.2
-        version: 17.9.2
+        specifier: 17.10.0
+        version: 17.10.0
       js-yaml:
         specifier: ^4.0.0
         version: 4.1.0
@@ -5671,8 +5671,8 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dev: true
 
-  /joi@17.9.2:
-    resolution: {integrity: sha512-Itk/r+V4Dx0V3c7RLFdRh12IOjySm2/WGPMubBT92cQvRfYZhPM2W0hZlctjj72iES8jsRCwp7S/cRmWBnJ4nw==}
+  /joi@17.10.0:
+    resolution: {integrity: sha512-hrazgRSlhzacZ69LdcKfhi3Vu13z2yFfoAzmEov3yFIJlatTdVGUW6vle1zjH8qkzdCn/qGw8rapjqsObbYXAg==}
     dependencies:
       '@hapi/hoek': 9.3.0
       '@hapi/topo': 5.1.0
