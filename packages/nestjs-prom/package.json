@@ -17,7 +17,7 @@
     "url": "https://github.com/DoNewsCode/nestjs/issues"
   },
   "dependencies": {
-    "prom-client": "^14.0.0"
+    "prom-client": "^15.0.0"
   },
   "devDependencies": {
     "@nestjs/common": "9.4.3",
