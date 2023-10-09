@@ -148,8 +148,8 @@ importers:
   packages/nestjs-prom:
     dependencies:
       prom-client:
-        specifier: ^14.0.0
-        version: 14.0.0
+        specifier: ^15.0.0
+        version: 15.0.0
     devDependencies:
       '@nestjs/common':
         specifier: 9.4.3
@@ -1438,6 +1438,11 @@ packages:
     dependencies:
       '@octokit/openapi-types': 17.2.0
     dev: true
+
+  /@opentelemetry/api@1.6.0:
+    resolution: {integrity: sha512-OWlrQAnWn9577PhVgqjUvMr1pg57Bc4jv0iL4w0PRuOSRvq67rvHW9Ie/dZVMvCzhSCB+UxhcY/PmCmFj33Q+g==}
+    engines: {node: '>=8.0.0'}
+    dev: false
 
   /@parcel/watcher@2.0.4:
     resolution: {integrity: sha512-cTDi+FUDBIUOBKEtj+nhiJ71AZVlkAsQFuGQTun5tV9mwQBQgZvhCzG+URPQc8myeN32yRVZEfVAPCs1RW+Jvg==}
@@ -7684,10 +7689,11 @@ packages:
     engines: {node: '>= 0.6.0'}
     dev: false
 
-  /prom-client@14.0.0:
-    resolution: {integrity: sha512-etPa4SMO4j6qTn2uaSZy7+uahGK0kXUZwO7WhoDpTf3yZ837I3jqUDYmG6N0caxuU6cyqrg0xmOxh+yneczvyA==}
-    engines: {node: '>=10'}
+  /prom-client@15.0.0:
+    resolution: {integrity: sha512-UocpgIrKyA2TKLVZDSfm8rGkL13C19YrQBAiG3xo3aDFWcHedxRxI3z+cIcucoxpSO0h5lff5iv/SXoxyeopeA==}
+    engines: {node: ^16 || ^18 || >=20}
     dependencies:
+      '@opentelemetry/api': 1.6.0
       tdigest: 0.1.2
     dev: false
 
