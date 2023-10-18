@@ -124,8 +124,8 @@ importers:
         specifier: 9.4.3
         version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(@nestjs/platform-express@9.4.3)
       '@types/js-yaml':
-        specifier: 4.0.7
-        version: 4.0.7
+        specifier: 4.0.8
+        version: 4.0.8
       '@types/lodash':
         specifier: 4.14.199
         version: 4.14.199
@@ -1614,8 +1614,8 @@ packages:
       chokidar: 3.5.3
     dev: true
 
-  /@types/js-yaml@4.0.7:
-    resolution: {integrity: sha512-RJZP9WAMMr1514KbdSXkLRrKvYQacjr1+HWnY8pui/uBTBoSgD9ZGR17u/d4nb9NpERp0FkdLBe7hq8NIPBgkg==}
+  /@types/js-yaml@4.0.8:
+    resolution: {integrity: sha512-m6jnPk1VhlYRiLFm3f8X9Uep761f+CK8mHyS65LutH2OhmBF0BeMEjHgg05usH8PLZMWWc/BUR9RPmkvpWnyRA==}
     dev: true
 
   /@types/json-schema@7.0.12:
