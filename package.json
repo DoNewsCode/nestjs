@@ -30,7 +30,7 @@
     "@commitlint/cli": "17.8.0",
     "@commitlint/config-angular": "17.8.0",
     "@donews/eslint-config-donews": "1.0.3",
-    "@types/gulp": "4.0.15",
+    "@types/gulp": "4.0.16",
     "@types/mocha": "10.0.2",
     "@types/node": "18.18.5",
     "@types/sinon": "10.0.19",
