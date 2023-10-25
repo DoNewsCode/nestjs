@@ -24,8 +24,8 @@ importers:
         specifier: 10.0.3
         version: 10.0.3
       '@types/node':
-        specifier: 20.8.8
-        version: 20.8.8
+        specifier: 20.8.9
+        version: 20.8.9
       '@types/sinon':
         specifier: 10.0.20
         version: 10.0.20
@@ -94,7 +94,7 @@ importers:
         version: 17.0.0
       ts-node:
         specifier: 10.9.1
-        version: 10.9.1(@types/node@20.8.8)(typescript@5.2.2)
+        version: 10.9.1(@types/node@20.8.9)(typescript@5.2.2)
       typescript:
         specifier: 5.2.2
         version: 5.2.2
@@ -1594,27 +1594,27 @@ packages:
     resolution: {integrity: sha512-EIJSLP/nGyMzD8aFhJljO9nv3EmQ10xk1+dl+i15AITrcWLhhTTPmNMFK0TWcGRvVYuSlA1VPi1fe8tbgDsUhg==}
     dependencies:
       '@types/glob': 7.2.0
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
     dev: true
 
   /@types/glob@7.2.0:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
     dev: true
 
   /@types/glob@8.1.0:
     resolution: {integrity: sha512-IO+MJPVhoqz+28h1qLAcBEH2+xHMK6MTyHJc7MTnnYb6wsoLR29POVGJ7LycmVXIqyy/4/2ShP5sUwTXuOwb/w==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
     dev: true
 
   /@types/gulp@4.0.16:
     resolution: {integrity: sha512-yY3XJjYejEzIQqLt6ZXaOZ/jynVxUe7Km33XA1/sU2zfZ2AeFDragIcT+i53a+j7eoWPgVeikhFvtC0gCteBdA==}
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       '@types/undertaker': 1.2.8
       '@types/vinyl-fs': 3.0.1
       chokidar: 3.5.3
@@ -1658,10 +1658,10 @@ packages:
   /@types/node@18.18.6:
     resolution: {integrity: sha512-wf3Vz+jCmOQ2HV1YUJuCWdL64adYxumkrxtc+H1VUQlnQI04+5HtH+qZCOE21lBE7gIrt+CwX2Wv8Acrw5Ak6w==}
 
-  /@types/node@20.8.8:
-    resolution: {integrity: sha512-YRsdVxq6OaLfmR9Hy816IMp33xOBjfyOgUd77ehqg96CFywxAPbDbXvAsuN2KVg2HOT8Eh6uAfU+l4WffwPVrQ==}
+  /@types/node@20.8.9:
+    resolution: {integrity: sha512-UzykFsT3FhHb1h7yD4CA4YhBHq545JC0YnEz41xkipN88eKQtL6rSgocL5tbAP6Ola9Izm/Aw4Ora8He4x0BHg==}
     dependencies:
-      undici-types: 5.25.3
+      undici-types: 5.26.5
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -1671,7 +1671,7 @@ packages:
     resolution: {integrity: sha512-YyP+VfeaqAyFmXoTh3HChxOQMyjByRMsHU7kc5KOJkSlXudhMhQIALbYV7rHh/l8d2lX3VUQzprrcAgWdRuU8g==}
     dependencies:
       '@types/glob': 8.1.0
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
     dev: true
 
   /@types/semver@7.5.0:
@@ -1695,7 +1695,7 @@ packages:
   /@types/undertaker@1.2.8:
     resolution: {integrity: sha512-gW3PRqCHYpo45XFQHJBhch7L6hytPsIe0QeLujlnFsjHPnXLhJcPdN6a9368d7aIQgH2I/dUTPFBlGeSNA3qOg==}
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       '@types/undertaker-registry': 1.0.1
       async-done: 1.3.2
     dev: true
@@ -1704,7 +1704,7 @@ packages:
     resolution: {integrity: sha512-me2Gcxw23pZp62oqPoiTDDMz/txEmtEZzXM/D/VTr+xUX4LiNA+nQPs38SSPu5KHnsaEER4HEtzWU5qJRXigfA==}
     dependencies:
       '@types/glob-stream': 6.1.2
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       '@types/rimraf': 2.0.5
       '@types/vinyl': 2.0.7
     dev: true
@@ -1713,7 +1713,7 @@ packages:
     resolution: {integrity: sha512-4UqPv+2567NhMQuMLdKAyK4yzrfCqwaTt6bLhHEs8PFcxbHILsrxaY63n4wgE/BRLDWDQeI+WcTmkXKExh9hQg==}
     dependencies:
       '@types/expect': 1.20.4
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
     dev: true
 
   /@typescript-eslint/eslint-plugin@6.9.0(@typescript-eslint/parser@6.9.0)(eslint@8.52.0)(typescript@5.2.2):
@@ -7817,7 +7817,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       long: 5.2.3
 
   /protocols@2.0.1:
@@ -9095,7 +9095,7 @@ packages:
       yn: 3.1.1
     dev: true
 
-  /ts-node@10.9.1(@types/node@20.8.8)(typescript@5.2.2):
+  /ts-node@10.9.1(@types/node@20.8.9)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -9114,7 +9114,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -9322,8 +9322,8 @@ packages:
       undertaker-registry: 1.0.1
     dev: true
 
-  /undici-types@5.25.3:
-    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
   /union-value@1.0.1:
     resolution: {integrity: sha512-tJfXmxMeWYnczCVs7XAEvIV7ieppALdyepWMkHkwciRpZraG/xwT+s2JN8+pr1+8jCRf80FFzvr+MpQeeoF4Xg==}
