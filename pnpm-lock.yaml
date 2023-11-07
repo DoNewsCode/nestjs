@@ -18,8 +18,8 @@ importers:
         specifier: 1.0.3
         version: 1.0.3
       '@types/gulp':
-        specifier: 4.0.16
-        version: 4.0.16
+        specifier: 4.0.17
+        version: 4.0.17
       '@types/mocha':
         specifier: 10.0.4
         version: 10.0.4
@@ -1607,8 +1607,8 @@ packages:
       '@types/node': 20.8.10
     dev: true
 
-  /@types/gulp@4.0.16:
-    resolution: {integrity: sha512-yY3XJjYejEzIQqLt6ZXaOZ/jynVxUe7Km33XA1/sU2zfZ2AeFDragIcT+i53a+j7eoWPgVeikhFvtC0gCteBdA==}
+  /@types/gulp@4.0.17:
+    resolution: {integrity: sha512-+pKQynu2C/HS16kgmDlAicjtFYP8kaa86eE9P0Ae7GB5W29we/E2TIdbOWtEZD5XkpY+jr8fyqfwO6SWZecLpQ==}
     dependencies:
       '@types/node': 20.8.10
       '@types/undertaker': 1.2.8
