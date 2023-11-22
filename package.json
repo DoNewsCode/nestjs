@@ -31,7 +31,7 @@
     "@commitlint/config-angular": "18.4.3",
     "@donews/eslint-config-donews": "1.0.3",
     "@types/gulp": "4.0.17",
-    "@types/mocha": "10.0.5",
+    "@types/mocha": "10.0.6",
     "@types/node": "20.9.3",
     "@types/sinon": "17.0.2",
     "@typescript-eslint/eslint-plugin": "6.12.0",
