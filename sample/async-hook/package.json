@@ -8,7 +8,7 @@
     "@nestjs/microservices": "9.4.3",
     "@nestjs/platform-express": "9.4.3",
     "@grpc/grpc-js": "1.9.13",
-    "reflect-metadata": "0.2.0",
+    "reflect-metadata": "0.2.1",
     "rxjs": "7.8.1"
   }
 }

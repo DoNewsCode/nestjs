@@ -87,8 +87,8 @@ importers:
         specifier: 3.1.1
         version: 3.1.1
       reflect-metadata:
-        specifier: 0.2.0
-        version: 0.2.0
+        specifier: 0.2.1
+        version: 0.2.1
       sinon:
         specifier: 17.0.1
         version: 17.0.1
@@ -211,19 +211,19 @@ importers:
         version: 1.9.13
       '@nestjs/common':
         specifier: 9.4.3
-        version: 9.4.3(reflect-metadata@0.2.0)(rxjs@7.8.1)
+        version: 9.4.3(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/core':
         specifier: 9.4.3
-        version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.2.0)(rxjs@7.8.1)
+        version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/microservices':
         specifier: 9.4.3
-        version: 9.4.3(@grpc/grpc-js@1.9.13)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.2.0)(rxjs@7.8.1)
+        version: 9.4.3(@grpc/grpc-js@1.9.13)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/platform-express':
         specifier: 9.4.3
         version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)
       reflect-metadata:
-        specifier: 0.2.0
-        version: 0.2.0
+        specifier: 0.2.1
+        version: 0.2.1
       rxjs:
         specifier: 7.8.1
         version: 7.8.1
@@ -235,19 +235,19 @@ importers:
         version: link:../../packages/nestjs-tracing
       '@nestjs/common':
         specifier: 9.4.3
-        version: 9.4.3(reflect-metadata@0.2.0)(rxjs@7.8.1)
+        version: 9.4.3(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/core':
         specifier: 9.4.3
-        version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.2.0)(rxjs@7.8.1)
+        version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/microservices':
         specifier: 9.4.3
-        version: 9.4.3(@grpc/grpc-js@1.9.13)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.2.0)(rxjs@7.8.1)
+        version: 9.4.3(@grpc/grpc-js@1.9.13)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/platform-express':
         specifier: 9.4.3
         version: 9.4.3(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)
       reflect-metadata:
-        specifier: 0.2.0
-        version: 0.2.0
+        specifier: 0.2.1
+        version: 0.2.1
       rxjs:
         specifier: 7.8.1
         version: 7.8.1
@@ -961,7 +961,7 @@ packages:
       tslib: 2.5.3
       uid: 2.0.2
 
-  /@nestjs/common@9.4.3(reflect-metadata@0.2.0)(rxjs@7.8.1):
+  /@nestjs/common@9.4.3(reflect-metadata@0.2.1)(rxjs@7.8.1):
     resolution: {integrity: sha512-Gd6D4IaYj01o14Bwv81ukidn4w3bPHCblMUq+SmUmWLyosK+XQmInCS09SbDDZyL8jy86PngtBLTdhJ2bXSUig==}
     peerDependencies:
       cache-manager: <=5
@@ -978,13 +978,13 @@ packages:
         optional: true
     dependencies:
       iterare: 1.2.1
-      reflect-metadata: 0.2.0
+      reflect-metadata: 0.2.1
       rxjs: 7.8.1
       tslib: 2.5.3
       uid: 2.0.2
     dev: false
 
-  /@nestjs/core@9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.2.0)(rxjs@7.8.1):
+  /@nestjs/core@9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.2.1)(rxjs@7.8.1):
     resolution: {integrity: sha512-Qi63+wi55Jh4sDyaj5Hhx2jOpKqT386aeo+VOKsxnd+Ql9VvkO/FjmuwBGUyzkJt29ENYc+P0Sx/k5LtstNpPQ==}
     requiresBuild: true
     peerDependencies:
@@ -1002,14 +1002,14 @@ packages:
       '@nestjs/websockets':
         optional: true
     dependencies:
-      '@nestjs/common': 9.4.3(reflect-metadata@0.2.0)(rxjs@7.8.1)
-      '@nestjs/microservices': 9.4.3(@grpc/grpc-js@1.9.13)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.2.0)(rxjs@7.8.1)
+      '@nestjs/common': 9.4.3(reflect-metadata@0.2.1)(rxjs@7.8.1)
+      '@nestjs/microservices': 9.4.3(@grpc/grpc-js@1.9.13)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/platform-express': 9.4.3(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
       path-to-regexp: 3.2.0
-      reflect-metadata: 0.2.0
+      reflect-metadata: 0.2.1
       rxjs: 7.8.1
       tslib: 2.5.3
       uid: 2.0.2
@@ -1048,7 +1048,7 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@nestjs/microservices@9.4.3(@grpc/grpc-js@1.9.13)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.2.0)(rxjs@7.8.1):
+  /@nestjs/microservices@9.4.3(@grpc/grpc-js@1.9.13)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(reflect-metadata@0.2.1)(rxjs@7.8.1):
     resolution: {integrity: sha512-piMw8d3C4ppc5St5AhQEtecMhyeBK2Q1VYk4AL3NKtG6U0fzz/6KLiETpWdKXmazeI/m7qac2upOvwmRzle0aA==}
     peerDependencies:
       '@grpc/grpc-js': '*'
@@ -1085,10 +1085,10 @@ packages:
         optional: true
     dependencies:
       '@grpc/grpc-js': 1.9.13
-      '@nestjs/common': 9.4.3(reflect-metadata@0.2.0)(rxjs@7.8.1)
-      '@nestjs/core': 9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.2.0)(rxjs@7.8.1)
+      '@nestjs/common': 9.4.3(reflect-metadata@0.2.1)(rxjs@7.8.1)
+      '@nestjs/core': 9.4.3(@nestjs/common@9.4.3)(@nestjs/microservices@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       iterare: 1.2.1
-      reflect-metadata: 0.2.0
+      reflect-metadata: 0.2.1
       rxjs: 7.8.1
       tslib: 2.5.3
     dev: false
@@ -8069,8 +8069,8 @@ packages:
   /reflect-metadata@0.1.14:
     resolution: {integrity: sha512-ZhYeb6nRaXCfhnndflDK8qI6ZQ/YcWZCISRAWICW9XYqMUwjZM9Z0DveWX/ABN01oxSHwVxKQmxeYZSsm0jh5A==}
 
-  /reflect-metadata@0.2.0:
-    resolution: {integrity: sha512-vUN0wuk3MuhSVMfU/ImnPQAK8QZcXJ339DtVsP3jDscxCe6dT+PsOe3J1BYS9Ec2Fd4oC6ry6bCBebzTya0IYw==}
+  /reflect-metadata@0.2.1:
+    resolution: {integrity: sha512-i5lLI6iw9AU3Uu4szRNPPEkomnkjRTaVt9hy/bn5g/oSzekBSMeLZblcjP74AW0vBabqERLLIrz+gR8QYR54Tw==}
 
   /regenerator-runtime@0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
