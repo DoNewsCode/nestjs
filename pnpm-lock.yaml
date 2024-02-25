@@ -171,7 +171,7 @@ importers:
         version: 1.6.7
       jaeger-client:
         specifier: ^3.18.1
-        version: 3.18.1
+        version: 3.19.0
       opentracing:
         specifier: ^0.14.5
         version: 0.14.7
@@ -2618,8 +2618,8 @@ packages:
       ieee754: 1.2.1
     dev: true
 
-  /bufrw@1.3.0:
-    resolution: {integrity: sha512-jzQnSbdJqhIltU9O5KUiTtljP9ccw2u5ix59McQy4pV2xGhVLhRZIndY8GIrgh5HjXa6+QJ9AQhOd2QWQizJFQ==}
+  /bufrw@1.4.0:
+    resolution: {integrity: sha512-sWm8iPbqvL9+5SiYxXH73UOkyEbGQg7kyHQmReF89WJHQJw2eV4P/yZ0E+b71cczJ4pPobVhXxgQcmfSTgGHxQ==}
     engines: {node: '>= 0.10.x'}
     dependencies:
       ansi-color: 0.2.1
@@ -5805,15 +5805,15 @@ packages:
       '@pkgjs/parseargs': 0.11.0
     dev: true
 
-  /jaeger-client@3.18.1:
-    resolution: {integrity: sha512-eZLM2U6rJvYo0XbzQYFeMYfp29gQix7SKlmDReorp9hJkUwXZtTyxW81AcKdmFCjLHO5tFysTX+394BnjEnUZg==}
-    engines: {node: '>=0.10'}
+  /jaeger-client@3.19.0:
+    resolution: {integrity: sha512-M0c7cKHmdyEUtjemnJyx/y9uX16XHocL46yQvyqDlPdvAcwPDbHrIbKjQdBqtiE4apQ/9dmr+ZLJYYPGnurgpw==}
+    engines: {node: '>=10'}
     dependencies:
       node-int64: 0.4.0
       opentracing: 0.14.7
-      thriftrw: 3.12.0
-      uuid: 3.4.0
-      xorshift: 0.2.1
+      thriftrw: 3.11.4
+      uuid: 8.3.2
+      xorshift: 1.2.0
     dev: false
 
   /jake@10.8.5:
@@ -9084,12 +9084,12 @@ packages:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
 
-  /thriftrw@3.12.0:
-    resolution: {integrity: sha512-4YZvR4DPEI41n4Opwr4jmrLGG4hndxr7387kzRFIIzxHQjarPusH4lGXrugvgb7TtPrfZVTpZCVe44/xUxowEw==}
+  /thriftrw@3.11.4:
+    resolution: {integrity: sha512-UcuBd3eanB3T10nXWRRMwfwoaC6VMk7qe3/5YIWP2Jtw+EbHqJ0p1/K3x8ixiR5dozKSSfcg1W+0e33G1Di3XA==}
     engines: {node: '>= 0.10.x'}
     hasBin: true
     dependencies:
-      bufrw: 1.3.0
+      bufrw: 1.4.0
       error: 7.0.2
       long: 2.4.0
     dev: false
@@ -9566,16 +9566,9 @@ packages:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
 
-  /uuid@3.4.0:
-    resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
-    hasBin: true
-    dev: false
-
   /uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
-    dev: true
 
   /uuid@9.0.0:
     resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==}
@@ -9848,8 +9841,8 @@ packages:
       write-json-file: 3.2.0
     dev: true
 
-  /xorshift@0.2.1:
-    resolution: {integrity: sha512-P7vgjXF9fGNdj97iI5v9nMnh1RpUROBlbfITf5CTAhaz96h/vKI/Lo5nikVqE0pBvraYNjdPIyOfHmECh7Mxxg==}
+  /xorshift@1.2.0:
+    resolution: {integrity: sha512-iYgNnGyeeJ4t6U11NpA/QiKy+PXn5Aa3Azg5qkwIFz1tBLllQrjjsk9yzD7IAK0naNU4JxdeDgqW9ov4u/hc4g==}
     dev: false
 
   /xtend@4.0.2:
