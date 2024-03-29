@@ -43,7 +43,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "fancy-log": "2.0.0",
-    "gulp": "4.0.2",
+    "gulp": "5.0.0",
     "gulp-clean": "0.4.0",
     "gulp-sourcemaps": "3.0.0",
     "gulp-typescript": "5.0.1",
