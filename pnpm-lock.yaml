@@ -167,8 +167,8 @@ importers:
   packages/nestjs-tracing:
     dependencies:
       axios:
-        specifier: 1.7.0
-        version: 1.7.0
+        specifier: 1.7.1
+        version: 1.7.1
       jaeger-client:
         specifier: ^3.18.1
         version: 3.19.0
@@ -181,7 +181,7 @@ importers:
         version: 1.10.8
       '@nestjs/axios':
         specifier: 3.0.2
-        version: 3.0.2(@nestjs/common@9.4.3(reflect-metadata@0.2.2)(rxjs@7.8.1))(axios@1.7.0)(rxjs@7.8.1)
+        version: 3.0.2(@nestjs/common@9.4.3(reflect-metadata@0.2.2)(rxjs@7.8.1))(axios@1.7.1)(rxjs@7.8.1)
       '@nestjs/common':
         specifier: 9.4.3
         version: 9.4.3(reflect-metadata@0.2.2)(rxjs@7.8.1)
@@ -1348,8 +1348,8 @@ packages:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
     engines: {node: '>= 0.4'}
 
-  axios@1.7.0:
-    resolution: {integrity: sha512-IiB0wQeKyPRdsFVhBgIo31FbzOyf2M6wYl7/NVutFwFBRMiAbjNiydJIHKeLmPugF4kJLfA1uWZ82Is2QzqqFA==}
+  axios@1.7.1:
+    resolution: {integrity: sha512-+LV37nQcd1EpFalkXksWNBiA17NZ5m5/WspmHGmZmdx1qBOg/VNq/c4eRJiA9VQQHBOs+N0ZhhdU10h2TyNK7Q==}
 
   bach@2.0.1:
     resolution: {integrity: sha512-A7bvGMGiTOxGMpNupYl9HQTf0FFDNF4VCmks4PJpFyN1AX2pdKuxuwdvUz2Hu388wcgp+OvGFNsumBfFNkR7eg==}
@@ -4027,10 +4027,12 @@ packages:
   read-package-json@6.0.4:
     resolution: {integrity: sha512-AEtWXYfopBj2z5N5PbkAOeNHRPUg5q+Nen7QLxV8M2zJq1ym6/lCz3fYNTCXe19puu2d06jfHhrP7v/S2PtMMw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    deprecated: This package is no longer supported. Please use @npmcli/package-json instead.
 
   read-package-json@7.0.0:
     resolution: {integrity: sha512-uL4Z10OKV4p6vbdvIXB+OzhInYtIozl/VxUBPgNkBuUi2DeRonnuspmaVAMcrkmfjKGNmRndyQAbE7/AmzGwFg==}
     engines: {node: ^16.14.0 || >=18.0.0}
+    deprecated: This package is no longer supported. Please use @npmcli/package-json instead.
 
   read-pkg-up@3.0.0:
     resolution: {integrity: sha512-YFzFrVvpC6frF1sz8psoHDBGF7fLPc+llq/8NB43oagqWkx8ar5zYtsTORtOjw9W2RHLpWP+zTWwBvf1bCmcSw==}
@@ -5446,10 +5448,10 @@ snapshots:
 
   '@lukeed/csprng@1.1.0': {}
 
-  '@nestjs/axios@3.0.2(@nestjs/common@9.4.3(reflect-metadata@0.2.2)(rxjs@7.8.1))(axios@1.7.0)(rxjs@7.8.1)':
+  '@nestjs/axios@3.0.2(@nestjs/common@9.4.3(reflect-metadata@0.2.2)(rxjs@7.8.1))(axios@1.7.1)(rxjs@7.8.1)':
     dependencies:
       '@nestjs/common': 9.4.3(reflect-metadata@0.2.2)(rxjs@7.8.1)
-      axios: 1.7.0
+      axios: 1.7.1
       rxjs: 7.8.1
 
   '@nestjs/common@9.4.3(reflect-metadata@0.2.2)(rxjs@7.8.1)':
@@ -6240,7 +6242,7 @@ snapshots:
 
   available-typed-arrays@1.0.5: {}
 
-  axios@1.7.0:
+  axios@1.7.1:
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
@@ -8961,7 +8963,7 @@ snapshots:
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.0-rc.46
       '@zkochan/js-yaml': 0.0.6
-      axios: 1.7.0
+      axios: 1.7.1
       chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-spinners: 2.6.1
