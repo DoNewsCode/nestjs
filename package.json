@@ -39,7 +39,7 @@
     "cli-color": "2.0.4",
     "concurrently": "8.2.2",
     "delete-empty": "3.0.0",
-    "eslint": "9.9.1",
+    "eslint": "9.10.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.30.0",
     "fancy-log": "2.0.0",
