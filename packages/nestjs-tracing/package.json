@@ -22,7 +22,7 @@
     "opentracing": "^0.14.5"
   },
   "devDependencies": {
-    "@grpc/grpc-js": "1.11.2",
+    "@grpc/grpc-js": "1.11.3",
     "@nestjs/axios": "3.0.3",
     "@nestjs/common": "9.4.3",
     "@nestjs/core": "9.4.3",
