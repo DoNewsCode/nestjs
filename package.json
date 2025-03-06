@@ -9,17 +9,17 @@
     "build:samples": "npm run build:prod && gulp test:samples && gulp test:e2e:samples",
     "clean": "gulp clean:bundle",
     "format": "prettier \"**/*.ts\" --ignore-path ./.prettierignore --write && git status",
-    "test": "nyc --require ts-node/register mocha packages/**/*.spec.ts --reporter spec --retries 3 --require 'node_modules/reflect-metadata/Reflect.js' --exit",
+    "test": "nyc mocha packages/**/*.spec.ts --reporter spec",
     "lint": "concurrently \"npm run lint:packages\" \"npm run lint:spec\"",
     "lint:fix": "concurrently \"npm run lint:packages -- --fix\" \"npm run lint:spec -- --fix\"",
     "lint:packages": "eslint \"packages/**/**.ts\" --ignore-pattern \"packages/**/*.spec.ts\"",
     "lint:spec": "eslint \"packages/**/**.spec.ts\" -c \"eslint.config.spec.mjs\"",
     "prerelease": "gulp copy-misc",
-    "publish": "     npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --exact --force-publish -m \"chore(@donews): publish %s release\"",
-    "publish:beta": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=beta -m \"chore(@donews): publish %s release\"",
-    "publish:next": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=next --skip-git -m \"chore(@donews): publish %s release\"",
-    "publish:rc": "  npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=rc -m \"chore(@donews): publish %s release\"",
-    "publish:test": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=test --skip-git --force-publish -m \"chore(@donews): publish %s release\""
+    "publish": "     npm run prerelease && npm run build:prod && npx lerna publish --exact --force-publish -m \"chore(@donews): publish %s release\"",
+    "publish:beta": "npm run prerelease && npm run build:prod && npx lerna publish --dist-tag=beta -m \"chore(@donews): publish %s release\"",
+    "publish:next": "npm run prerelease && npm run build:prod && npx lerna publish --dist-tag=next --no-push --no-git-tag-version -m \"chore(@donews): publish %s release\"",
+    "publish:rc": "  npm run prerelease && npm run build:prod && npx lerna publish --dist-tag=rc -m \"chore(@donews): publish %s release\"",
+    "publish:test": "npm run prerelease && npm run build:prod && npx lerna publish --dist-tag=test --no-push --no-git-tag-version --force-publish -m \"chore(@donews): publish %s release\""
   },
   "lint-staged": {
     "packages/**/*.{ts,json}": [
@@ -54,6 +54,7 @@
     "lerna": "8.2.1",
     "lint-staged": "15.4.3",
     "mocha": "11.1.0",
+    "nx": "^20.4.6",
     "nyc": "17.1.0",
     "prettier": "3.5.3",
     "reflect-metadata": "0.2.2",
@@ -65,5 +66,27 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@10.5.2"
+  "packageManager": "pnpm@10.5.2",
+  "nyc": {
+    "include": [
+      "packages/**/*.ts"
+    ],
+    "exclude": [
+      "**/*.js",
+      "**/*.d.ts",
+      "**/*.spec.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "reporter": [
+      "text-summary",
+      "html"
+    ],
+    "sourceMap": true,
+    "instrument": true
+  }
 }

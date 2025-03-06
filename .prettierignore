@@ -2,3 +2,5 @@ packages/**/*.d.ts
 packages/**/*.js
 
 pnpm-lock.yaml
+
+/.nx/workspace-data
