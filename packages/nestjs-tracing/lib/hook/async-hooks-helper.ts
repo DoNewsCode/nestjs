@@ -11,7 +11,6 @@ export class AsyncHooksHelper {
       asyncId: number,
       type: string,
       triggerId: number,
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       resource: any,
     ) {
       if (storage.has(triggerId)) {

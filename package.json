@@ -2,7 +2,7 @@
   "name": "donews",
   "author": "toonew",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "build": "gulp build",
     "prebuild:prod": "npm run clean",
     "build:prod": "gulp build",
@@ -13,7 +13,7 @@
     "lint": "concurrently \"npm run lint:packages\" \"npm run lint:spec\"",
     "lint:fix": "concurrently \"npm run lint:packages -- --fix\" \"npm run lint:spec -- --fix\"",
     "lint:packages": "eslint \"packages/**/**.ts\" --ignore-pattern \"packages/**/*.spec.ts\"",
-    "lint:spec": "eslint \"packages/**/**.spec.ts\" -c \".eslintrc.spec.js\"",
+    "lint:spec": "eslint \"packages/**/**.spec.ts\" -c \"eslint.config.spec.mjs\"",
     "prerelease": "gulp copy-misc",
     "publish": "     npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --exact --force-publish -m \"chore(@donews): publish %s release\"",
     "publish:beta": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=beta -m \"chore(@donews): publish %s release\"",
@@ -30,6 +30,7 @@
     "@commitlint/cli": "19.7.1",
     "@commitlint/config-angular": "19.7.1",
     "@donews/eslint-config-donews": "1.0.3",
+    "@eslint/js": "^9.21.0",
     "@types/gulp": "4.0.17",
     "@types/mocha": "10.0.10",
     "@types/node": "22.13.9",
@@ -42,7 +43,9 @@
     "eslint": "9.21.0",
     "eslint-config-prettier": "10.0.2",
     "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-prettier": "^5.2.3",
     "fancy-log": "2.0.0",
+    "globals": "^16.0.0",
     "gulp": "5.0.0",
     "gulp-clean": "0.4.0",
     "gulp-sourcemaps": "3.0.0",
@@ -56,9 +59,11 @@
     "reflect-metadata": "0.2.2",
     "sinon": "19.0.2",
     "ts-node": "10.9.2",
-    "typescript": "5.8.2"
+    "typescript": "5.8.2",
+    "typescript-eslint": "^8.26.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "packageManager": "pnpm@10.5.2"
 }

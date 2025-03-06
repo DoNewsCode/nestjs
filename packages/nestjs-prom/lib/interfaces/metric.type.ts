@@ -1,6 +1,5 @@
 import * as PromClient from 'prom-client';
 
-// eslint-disable-next-line no-shadow
 export enum MetricType {
   Counter,
   Gauge,
