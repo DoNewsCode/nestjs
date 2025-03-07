@@ -26,5 +26,5 @@
     "@nestjs/common": "^11.0.0",
     "@nestjs/core": "^11.0.0"
   },
-  "gitHead": "d92d5a4f9da81a40c26f3a45eb404e987c96bd02"
+  "gitHead": "f35c08a525e5c171c4c8a4ed38cb3eed0caf0521"
 }
