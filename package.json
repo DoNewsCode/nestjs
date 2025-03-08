@@ -41,7 +41,7 @@
     "cli-color": "2.0.4",
     "concurrently": "9.1.2",
     "delete-empty": "3.0.0",
-    "eslint": "9.21.0",
+    "eslint": "9.22.0",
     "eslint-config-prettier": "10.1.1",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-prettier": "^5.2.3",
