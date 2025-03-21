@@ -7,7 +7,7 @@
     "@nestjs/core": "11.0.12",
     "@nestjs/microservices": "11.0.12",
     "@nestjs/platform-express": "11.0.12",
-    "@grpc/grpc-js": "1.13.0",
+    "@grpc/grpc-js": "1.13.1",
     "reflect-metadata": "0.2.2",
     "rxjs": "7.8.2"
   }
