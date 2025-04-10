@@ -42,7 +42,7 @@
     "concurrently": "9.1.2",
     "delete-empty": "3.0.0",
     "eslint": "9.24.0",
-    "eslint-config-prettier": "10.1.1",
+    "eslint-config-prettier": "10.1.2",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-prettier": "^5.2.3",
     "fancy-log": "2.0.0",
