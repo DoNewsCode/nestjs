@@ -22,10 +22,10 @@
     "lodash": "4.17.21"
   },
   "devDependencies": {
-    "@nestjs/common": "11.0.19",
-    "@nestjs/core": "11.0.19",
-    "@nestjs/platform-express": "11.0.19",
-    "@nestjs/testing": "11.0.19",
+    "@nestjs/common": "11.0.20",
+    "@nestjs/core": "11.0.20",
+    "@nestjs/platform-express": "11.0.20",
+    "@nestjs/testing": "11.0.20",
     "@types/js-yaml": "4.0.9",
     "@types/lodash": "4.17.16"
   },
