@@ -39,7 +39,7 @@
     "@typescript-eslint/eslint-plugin": "8.34.1",
     "@typescript-eslint/parser": "8.34.1",
     "cli-color": "2.0.4",
-    "concurrently": "9.1.2",
+    "concurrently": "9.2.0",
     "delete-empty": "3.0.0",
     "eslint": "9.29.0",
     "eslint-config-prettier": "10.1.5",
