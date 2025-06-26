@@ -57,7 +57,7 @@
     "mocha": "11.7.1",
     "nx": "^21.0.0",
     "nyc": "17.1.0",
-    "prettier": "3.6.0",
+    "prettier": "3.6.1",
     "reflect-metadata": "0.2.2",
     "sinon": "21.0.0",
     "ts-node": "10.9.2",
