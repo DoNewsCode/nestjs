@@ -17,7 +17,7 @@
     "url": "https://github.com/DoNewsCode/nestjs/issues"
   },
   "dependencies": {
-    "joi": "18.0.0",
+    "joi": "18.0.1",
     "js-yaml": "4.1.0",
     "lodash": "4.17.21"
   },
