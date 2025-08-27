@@ -91,7 +91,7 @@ importers:
         version: 11.7.1
       nx:
         specifier: ^21.0.0
-        version: 21.4.1
+        version: 21.8.0
       nyc:
         specifier: 17.1.0
         version: 17.1.0
@@ -3716,8 +3716,8 @@ packages:
     resolution: {integrity: sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==}
     engines: {node: '>=8'}
 
-  nx@20.8.2:
-    resolution: {integrity: sha512-mDKpbH3vEpUFDx0rrLh+tTqLq1PYU8KiD/R7OVZGd1FxQxghx2HOl32MiqNsfPcw6AvKlXhslbwIESV+N55FLQ==}
+  nx@20.12.0:
+    resolution: {integrity: sha512-m8LBFPkUdKsI8Yz6qrlnpZ8qkw3VNoGgtwXTGRiA8Oub61Evww7ZZyqX60OKnU6/WS3TRxM+0rNi51gsW23eDA==}
     hasBin: true
     peerDependencies:
       '@swc-node/register': ^1.8.0
@@ -3728,8 +3728,8 @@ packages:
       '@swc/core':
         optional: true
 
-  nx@21.4.1:
-    resolution: {integrity: sha512-nD8NjJGYk5wcqiATzlsLauvyrSHV2S2YmM2HBIKqTTwVP2sey07MF3wDB9U2BwxIjboahiITQ6pfqFgB79TF2A==}
+  nx@21.8.0:
+    resolution: {integrity: sha512-lwkNVVB2i7QAuNWXKAL6bqnqG+gkHEi8OJjgugsbnvmX71QLX9tc4Qum+EK5pv/SLB94etfff3OxcX7C8bm1cA==}
     hasBin: true
     peerDependencies:
       '@swc-node/register': ^1.8.0
@@ -5601,7 +5601,7 @@ snapshots:
       '@npmcli/arborist': 7.5.4
       '@npmcli/package-json': 5.2.0
       '@npmcli/run-script': 8.1.0
-      '@nx/devkit': 20.4.6(nx@20.8.2)
+      '@nx/devkit': 20.4.6(nx@20.12.0)
       '@octokit/plugin-enterprise-rest': 6.0.1
       '@octokit/rest': 20.1.2
       aproba: 2.0.0
@@ -5639,7 +5639,7 @@ snapshots:
       npm-package-arg: 11.0.2
       npm-packlist: 8.0.2
       npm-registry-fetch: 17.1.0
-      nx: 20.8.2
+      nx: 20.12.0
       p-map: 4.0.0
       p-map-series: 2.1.0
       p-queue: 6.6.2
@@ -5897,13 +5897,13 @@ snapshots:
     dependencies:
       consola: 3.4.0
 
-  '@nx/devkit@20.4.6(nx@20.8.2)':
+  '@nx/devkit@20.4.6(nx@20.12.0)':
     dependencies:
       ejs: 3.1.10
       enquirer: 2.3.6
       ignore: 5.3.2
       minimatch: 9.0.3
-      nx: 20.8.2
+      nx: 20.12.0
       semver: 7.7.2
       tmp: 0.2.5
       tslib: 2.8.1
@@ -8511,13 +8511,13 @@ snapshots:
   jake@10.9.2:
     dependencies:
       async: 3.2.6
-      chalk: 4.1.2
+      chalk: 4.1.0
       filelist: 1.0.4
       minimatch: 3.1.2
 
   jest-diff@29.7.0:
     dependencies:
-      chalk: 4.1.2
+      chalk: 4.1.0
       diff-sequences: 29.6.3
       jest-get-type: 29.6.3
       pretty-format: 29.7.0
@@ -8622,7 +8622,7 @@ snapshots:
       '@npmcli/arborist': 7.5.4
       '@npmcli/package-json': 5.2.0
       '@npmcli/run-script': 8.1.0
-      '@nx/devkit': 20.4.6(nx@20.8.2)
+      '@nx/devkit': 20.4.6(nx@20.12.0)
       '@octokit/plugin-enterprise-rest': 6.0.1
       '@octokit/rest': 20.1.2
       aproba: 2.0.0
@@ -8666,7 +8666,7 @@ snapshots:
       npm-package-arg: 11.0.2
       npm-packlist: 8.0.2
       npm-registry-fetch: 17.1.0
-      nx: 20.8.2
+      nx: 20.12.0
       p-map: 4.0.0
       p-map-series: 2.1.0
       p-pipe: 3.1.0
@@ -9088,7 +9088,7 @@ snapshots:
       array-differ: 3.0.0
       array-union: 2.1.0
       arrify: 2.0.1
-      minimatch: 3.1.2
+      minimatch: 3.0.5
 
   mute-stdout@2.0.0: {}
 
@@ -9222,14 +9222,14 @@ snapshots:
     dependencies:
       path-key: 3.1.1
 
-  nx@20.8.2:
+  nx@20.12.0:
     dependencies:
       '@napi-rs/wasm-runtime': 0.2.4
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.2
       '@zkochan/js-yaml': 0.0.7
       axios: 1.11.0
-      chalk: 4.1.2
+      chalk: 4.1.0
       cli-cursor: 3.1.0
       cli-spinners: 2.6.1
       cliui: 8.0.1
@@ -9272,7 +9272,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  nx@21.4.1:
+  nx@21.8.0:
     dependencies:
       '@napi-rs/wasm-runtime': 0.2.4
       '@yarnpkg/lockfile': 1.1.0
