@@ -52,7 +52,7 @@
     "gulp-sourcemaps": "3.0.0",
     "gulp-typescript": "5.0.1",
     "husky": "9.1.7",
-    "lerna": "8.2.3",
+    "lerna": "8.2.4",
     "lint-staged": "16.1.6",
     "mocha": "11.7.2",
     "nx": "^21.0.0",
