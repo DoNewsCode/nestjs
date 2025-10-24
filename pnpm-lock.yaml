@@ -21,8 +21,8 @@ importers:
         specifier: ^9.21.0
         version: 9.38.0
       '@types/gulp':
-        specifier: 4.0.17
-        version: 4.0.17
+        specifier: 4.0.18
+        version: 4.0.18
       '@types/mocha':
         specifier: 10.0.10
         version: 10.0.10
@@ -1234,8 +1234,8 @@ packages:
   '@types/glob-stream@8.0.2':
     resolution: {integrity: sha512-kyuRfGE+yiSJWzSO3t74rXxdZNdYfLcllO0IUha4eX1fl40pm9L02Q/TEc3mykTLjoWz4STBNwYnUWdFu3I0DA==}
 
-  '@types/gulp@4.0.17':
-    resolution: {integrity: sha512-+pKQynu2C/HS16kgmDlAicjtFYP8kaa86eE9P0Ae7GB5W29we/E2TIdbOWtEZD5XkpY+jr8fyqfwO6SWZecLpQ==}
+  '@types/gulp@4.0.18':
+    resolution: {integrity: sha512-IqkYa4sXkwH2uwqO2aXYOoAisJpLX13BPaS6lmEAoG4BbgOay3qqGQFsT9LMSSQVMQlEKU7wTUW0sPV46V0olw==}
 
   '@types/js-yaml@4.0.9':
     resolution: {integrity: sha512-k4MGaQl5TGo/iipqb2UDG2UwjXziSWkh0uysQelTlJpX1qGlpUZYm8PnO4DxG1qBomtJUdYJ6qR6xdIah10JLg==}
@@ -6531,7 +6531,7 @@ snapshots:
       '@types/picomatch': 3.0.2
       '@types/streamx': 2.9.5
 
-  '@types/gulp@4.0.17':
+  '@types/gulp@4.0.18':
     dependencies:
       '@types/node': 22.18.12
       '@types/undertaker': 1.2.11
