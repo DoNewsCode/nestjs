@@ -24,10 +24,10 @@
   "devDependencies": {
     "@grpc/grpc-js": "1.14.1",
     "@nestjs/axios": "4.0.1",
-    "@nestjs/common": "11.1.8",
-    "@nestjs/core": "11.1.8",
-    "@nestjs/platform-express": "11.1.8",
-    "@nestjs/testing": "11.1.8",
+    "@nestjs/common": "11.1.9",
+    "@nestjs/core": "11.1.9",
+    "@nestjs/platform-express": "11.1.9",
+    "@nestjs/testing": "11.1.9",
     "express": "5.1.0",
     "rxjs": "7.8.2"
   },
