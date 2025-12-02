@@ -28,7 +28,7 @@
     "@nestjs/core": "11.1.9",
     "@nestjs/platform-express": "11.1.9",
     "@nestjs/testing": "11.1.9",
-    "express": "5.1.0",
+    "express": "5.2.1",
     "rxjs": "7.8.2"
   },
   "peerDependencies": {
