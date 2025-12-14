@@ -34,7 +34,7 @@
     "@eslint/js": "^9.21.0",
     "@types/gulp": "4.0.18",
     "@types/mocha": "10.0.10",
-    "@types/node": "24.10.3",
+    "@types/node": "24.10.4",
     "@types/sinon": "21.0.0",
     "@typescript-eslint/eslint-plugin": "8.49.0",
     "@typescript-eslint/parser": "8.49.0",
