@@ -20,10 +20,10 @@
     "prom-client": "^15.0.0"
   },
   "devDependencies": {
-    "@nestjs/common": "11.1.11",
-    "@nestjs/core": "11.1.11",
-    "@nestjs/platform-express": "11.1.11",
-    "@nestjs/testing": "11.1.11"
+    "@nestjs/common": "11.1.12",
+    "@nestjs/core": "11.1.12",
+    "@nestjs/platform-express": "11.1.12",
+    "@nestjs/testing": "11.1.12"
   },
   "peerDependencies": {
     "@nestjs/common": "^11.0.0",
