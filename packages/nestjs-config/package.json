@@ -19,7 +19,7 @@
   "dependencies": {
     "joi": "18.0.2",
     "js-yaml": "4.1.1",
-    "lodash": "4.17.21"
+    "lodash": "4.17.23"
   },
   "devDependencies": {
     "@nestjs/common": "11.1.12",
