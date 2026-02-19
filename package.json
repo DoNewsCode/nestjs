@@ -28,8 +28,8 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "20.4.1",
-    "@commitlint/config-angular": "20.4.1",
+    "@commitlint/cli": "20.4.2",
+    "@commitlint/config-angular": "20.4.2",
     "@donews/eslint-config-donews": "1.0.3",
     "@eslint/js": "^10.0.0",
     "@types/gulp": "4.0.18",
