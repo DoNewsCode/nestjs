@@ -64,7 +64,7 @@
     "typescript": "5.9.3",
     "typescript-eslint": "^8.26.0"
   },
-  "packageManager": "pnpm@10.5.2",
+  "packageManager": "pnpm@10.30.3",
   "nyc": {
     "include": [
       "packages/**/*.ts"
