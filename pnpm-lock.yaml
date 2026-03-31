@@ -182,8 +182,8 @@ importers:
   packages/nestjs-tracing:
     dependencies:
       axios:
-        specifier: 1.14.0
-        version: 1.14.0
+        specifier: 1.14.1
+        version: 1.14.1
       jaeger-client:
         specifier: ^3.18.1
         version: 3.19.0
@@ -196,7 +196,7 @@ importers:
         version: 1.14.3
       '@nestjs/axios':
         specifier: 4.0.1
-        version: 4.0.1(@nestjs/common@11.1.17(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.14.0)(rxjs@7.8.2)
+        version: 4.0.1(@nestjs/common@11.1.17(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.14.1)(rxjs@7.8.2)
       '@nestjs/common':
         specifier: 11.1.17
         version: 11.1.17(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -1533,8 +1533,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  axios@1.14.0:
-    resolution: {integrity: sha512-3Y8yrqLSwjuzpXuZ0oIYZ/XGgLwUIBU3uLvbcpb0pidD9ctpShJd43KSlEEkVQg6DS0G9NKyzOvBfUtDKEyHvQ==}
+  axios@1.14.1:
+    resolution: {integrity: sha512-vF/aB4vrIzLyOb2TB9gpuE8gusNHpZqk2ZZcAqSnRjW5IcY7tFSBEurD2tbakohj0Rw5xMHYwjSqOGSfr0iewA==}
 
   b4a@1.6.7:
     resolution: {integrity: sha512-OnAYlL5b7LEkALw87fUVafQw5rVR9RjwGd4KUwNQ6DrrNmaVaUCgLipfVlzrPQ4tWOR9P0IXGNOx50jYCCdSJg==}
@@ -4044,6 +4044,9 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
+  plain-crypto-js@4.2.1:
+    resolution: {integrity: sha512-Wv41p4/aEMq03JjDqi0JxPYT4aoMbbQMSM8ur4QkjvjGEeuYvI7rGkqLcOZ7K1iThQGvpNvJnxRWcNodCNuEEQ==}
+
   plugin-error@0.1.2:
     resolution: {integrity: sha512-WzZHcm4+GO34sjFMxQMqZbsz3xiNEgonCskQ9v+IroMmYgk/tas8dG+Hr2D6IbRPybZ12oWpzE/w3cGJ6FJzOw==}
     engines: {node: '>=0.10.0'}
@@ -5705,10 +5708,10 @@ snapshots:
       '@emnapi/runtime': 1.9.1
       '@tybys/wasm-util': 0.9.0
 
-  '@nestjs/axios@4.0.1(@nestjs/common@11.1.17(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.14.0)(rxjs@7.8.2)':
+  '@nestjs/axios@4.0.1(@nestjs/common@11.1.17(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.14.1)(rxjs@7.8.2)':
     dependencies:
       '@nestjs/common': 11.1.17(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      axios: 1.14.0
+      axios: 1.14.1
       rxjs: 7.8.2
 
   '@nestjs/common@11.1.17(reflect-metadata@0.2.2)(rxjs@7.8.2)':
@@ -6532,10 +6535,11 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  axios@1.14.0:
+  axios@1.14.1:
     dependencies:
       follow-redirects: 1.15.11
       form-data: 4.0.5
+      plain-crypto-js: 4.2.1
       proxy-from-env: 2.1.0
     transitivePeerDependencies:
       - debug
@@ -9144,7 +9148,7 @@ snapshots:
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.2
       '@zkochan/js-yaml': 0.0.7
-      axios: 1.14.0
+      axios: 1.14.1
       cli-cursor: 3.1.0
       cli-spinners: 2.6.1
       cliui: 8.0.1
@@ -9526,6 +9530,8 @@ snapshots:
   pkg-dir@4.2.0:
     dependencies:
       find-up: 4.1.0
+
+  plain-crypto-js@4.2.1: {}
 
   plugin-error@0.1.2:
     dependencies:
