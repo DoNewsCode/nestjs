@@ -35,7 +35,7 @@
     "@types/gulp": "4.0.18",
     "@types/mocha": "10.0.10",
     "@types/node": "24.12.0",
-    "@types/sinon": "21.0.0",
+    "@types/sinon": "21.0.1",
     "@typescript-eslint/eslint-plugin": "8.58.0",
     "@typescript-eslint/parser": "8.58.0",
     "cli-color": "2.0.4",
