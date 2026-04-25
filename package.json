@@ -28,7 +28,7 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "20.5.0",
+    "@commitlint/cli": "20.5.2",
     "@commitlint/config-angular": "20.5.0",
     "@donews/eslint-config-donews": "1.0.3",
     "@eslint/js": "^10.0.0",
