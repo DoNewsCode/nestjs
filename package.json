@@ -55,7 +55,7 @@
     "lerna": "9.0.7",
     "lint-staged": "17.0.7",
     "mocha": "11.7.6",
-    "nx": "^22.0.0",
+    "nx": "^23.0.0",
     "nyc": "18.0.0",
     "prettier": "3.8.4",
     "reflect-metadata": "0.2.2",
