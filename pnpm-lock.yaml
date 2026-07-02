@@ -30,8 +30,8 @@ importers:
         specifier: 24.13.2
         version: 24.13.2
       '@types/sinon':
-        specifier: 21.0.1
-        version: 21.0.1
+        specifier: 22.0.0
+        version: 22.0.0
       '@typescript-eslint/eslint-plugin':
         specifier: 8.62.1
         version: 8.62.1(@typescript-eslint/parser@8.62.1(eslint@10.6.0(jiti@2.4.2))(typescript@6.0.3))(eslint@10.6.0(jiti@2.4.2))(typescript@6.0.3)
@@ -1252,8 +1252,8 @@ packages:
   '@types/picomatch@3.0.2':
     resolution: {integrity: sha512-n0i8TD3UDB7paoMMxA3Y65vUncFJXjcUf7lQY7YyKGl6031FNjfsLs6pdLFCy2GNFxItPJG8GvvpbZc2skH7WA==}
 
-  '@types/sinon@21.0.1':
-    resolution: {integrity: sha512-5yoJSqLbjH8T9V2bksgRayuhpZy+723/z6wBOR+Soe4ZlXC0eW8Na71TeaZPUWDQvM7LYKa9UGFc6LRqxiR5fQ==}
+  '@types/sinon@22.0.0':
+    resolution: {integrity: sha512-TDbVpbccc2HfiqHR09Argj3mHV1KMW7sCCKj52fsl8lbRLkEn7fB1966EWhOKWUBcqfBueZuPoA7/OK1CKiy3g==}
 
   '@types/sinonjs__fake-timers@8.1.5':
     resolution: {integrity: sha512-mQkU2jY8jJEF7YHjHvsQO8+3ughTL1mcnn96igfhONmR+fUPSKIkefQYpSe8bsly2Ep7oQbn/6VG5/9/0qcArQ==}
@@ -6301,7 +6301,7 @@ snapshots:
 
   '@types/picomatch@3.0.2': {}
 
-  '@types/sinon@21.0.1':
+  '@types/sinon@22.0.0':
     dependencies:
       '@types/sinonjs__fake-timers': 8.1.5
 
