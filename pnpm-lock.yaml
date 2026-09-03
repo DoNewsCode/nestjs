@@ -117,8 +117,8 @@ importers:
   packages/nestjs-config:
     dependencies:
       joi:
-        specifier: 18.2.5
-        version: 18.2.5
+        specifier: 18.2.8
+        version: 18.2.8
       js-yaml:
         specifier: 5.4.1
         version: 5.4.1
@@ -3162,8 +3162,8 @@ packages:
     resolution: {integrity: sha512-rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==}
     hasBin: true
 
-  joi@18.2.5:
-    resolution: {integrity: sha512-+gEA7rLfaNWx9JzawWPrPetSZwT16NUqHtECDgjyAJreXcs4TM7tx2Pa+VVJJK0YHM83ybrVdaT6UekHH50FJQ==}
+  joi@18.2.8:
+    resolution: {integrity: sha512-G2TX62h58ZHuwqetJgP2F4ualakqAmZtBYe3jWen7gxQRw5xApX6crnFtuB91WC0c3ESBnva+kGSnb3+6pIQDQ==}
     engines: {node: '>= 20'}
 
   js-tokens@4.0.0:
@@ -8111,7 +8111,7 @@ snapshots:
 
   jiti@2.4.2: {}
 
-  joi@18.2.5:
+  joi@18.2.8:
     dependencies:
       '@hapi/address': 5.1.1
       '@hapi/formula': 3.0.2
