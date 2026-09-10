@@ -20,14 +20,14 @@
     "prom-client": "^15.0.0"
   },
   "devDependencies": {
-    "@nestjs/common": "11.2.3",
-    "@nestjs/core": "11.2.3",
-    "@nestjs/platform-express": "11.2.3",
-    "@nestjs/testing": "11.2.3"
+    "@nestjs/common": "12.0.1",
+    "@nestjs/core": "12.0.1",
+    "@nestjs/platform-express": "12.0.1",
+    "@nestjs/testing": "12.0.1"
   },
   "peerDependencies": {
-    "@nestjs/common": "^11.0.0",
-    "@nestjs/core": "^11.0.0"
+    "@nestjs/common": "^11.0.0 || ^12.0.0",
+    "@nestjs/core": "^11.0.0 || ^12.0.0"
   },
   "gitHead": "4e0a8578a08c92cf2229122d58940c204034ba7b"
 }
