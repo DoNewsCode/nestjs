@@ -27,7 +27,7 @@
     "@nestjs/platform-express": "11.2.7",
     "@nestjs/testing": "11.2.7",
     "@types/js-yaml": "4.0.9",
-    "@types/lodash": "4.17.25"
+    "@types/lodash": "4.17.26"
   },
   "peerDependencies": {
     "@nestjs/common": "^11.0.0",
