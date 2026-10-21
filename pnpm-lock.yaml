@@ -30,8 +30,8 @@ importers:
         specifier: 24.19.2
         version: 24.19.2
       '@types/sinon':
-        specifier: 22.0.0
-        version: 22.0.0
+        specifier: 22.0.1
+        version: 22.0.1
       '@typescript-eslint/eslint-plugin':
         specifier: 8.72.0
         version: 8.72.0(@typescript-eslint/parser@8.72.0(eslint@10.13.0(jiti@2.7.0))(typescript@7.0.2))(eslint@10.13.0(jiti@2.7.0))(typescript@7.0.2)
@@ -1213,11 +1213,8 @@ packages:
   '@types/picomatch@3.0.2':
     resolution: {integrity: sha512-n0i8TD3UDB7paoMMxA3Y65vUncFJXjcUf7lQY7YyKGl6031FNjfsLs6pdLFCy2GNFxItPJG8GvvpbZc2skH7WA==}
 
-  '@types/sinon@22.0.0':
-    resolution: {integrity: sha512-TDbVpbccc2HfiqHR09Argj3mHV1KMW7sCCKj52fsl8lbRLkEn7fB1966EWhOKWUBcqfBueZuPoA7/OK1CKiy3g==}
-
-  '@types/sinonjs__fake-timers@8.1.5':
-    resolution: {integrity: sha512-mQkU2jY8jJEF7YHjHvsQO8+3ughTL1mcnn96igfhONmR+fUPSKIkefQYpSe8bsly2Ep7oQbn/6VG5/9/0qcArQ==}
+  '@types/sinon@22.0.1':
+    resolution: {integrity: sha512-MThluJXPmpBY+Z5S3565F2z+hjkCXnBrr36j2mitVQ7JUtxA+A+YQhs+0Q6J8jxb0SVJvydO+6NWfj9EBzpiBQ==}
 
   '@types/streamx@2.9.5':
     resolution: {integrity: sha512-IHYsa6jYrck8VEdSwpY141FTTf6D7boPeMq9jy4qazNrFMA4VbRz/sw5LSsfR7jwdDcx0QKWkUexZvsWBC2eIQ==}
@@ -5873,11 +5870,9 @@ snapshots:
 
   '@types/picomatch@3.0.2': {}
 
-  '@types/sinon@22.0.0':
+  '@types/sinon@22.0.1':
     dependencies:
-      '@types/sinonjs__fake-timers': 8.1.5
-
-  '@types/sinonjs__fake-timers@8.1.5': {}
+      '@sinonjs/fake-timers': 15.4.0
 
   '@types/streamx@2.9.5':
     dependencies:
